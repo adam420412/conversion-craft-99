@@ -10,36 +10,36 @@ const benefits = [
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-secondary" />
+      {/* Background - Dark elegant */}
+      <div className="absolute inset-0 bg-secondary" />
       
       {/* Decorative elements */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-secondary/30 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       
-      {/* Floating shapes */}
-      <div className="absolute top-1/4 right-1/4 w-4 h-4 bg-accent rounded-full animate-float" />
-      <div className="absolute top-1/3 right-1/3 w-6 h-6 bg-card/20 rounded-full animate-float stagger-2" />
-      <div className="absolute bottom-1/3 left-1/4 w-3 h-3 bg-accent/60 rounded-full animate-float stagger-3" />
+      {/* Geometric shapes */}
+      <div className="absolute top-1/4 right-1/4 w-4 h-4 bg-primary rounded-full animate-float" />
+      <div className="absolute top-1/3 right-1/3 w-6 h-6 bg-primary/30 rounded-full animate-float stagger-2" />
+      <div className="absolute bottom-1/3 left-1/4 w-3 h-3 bg-primary/60 rounded-full animate-float stagger-3" />
 
       <div className="container-narrow relative z-10 mx-auto px-4 py-32 md:py-40">
         <div className="max-w-3xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-card/10 backdrop-blur-sm border border-card/20 rounded-full px-4 py-2 mb-6 fade-in">
-            <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium text-card">
+          <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6 fade-in">
+            <Sparkles className="w-4 h-4 text-primary" />
+            <span className="text-sm font-medium text-primary">
               Profesjonalne usługi sprzątające
             </span>
           </div>
 
           {/* H1 - Main headline */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-card leading-tight mb-6 fade-in stagger-1">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground leading-tight mb-6 fade-in stagger-1">
             Profesjonalne sprzątanie biur i mieszkań{" "}
-            <span className="text-accent">w Twojej okolicy</span>
+            <span className="text-primary">w Twojej okolicy</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-card/80 mb-8 max-w-2xl fade-in stagger-2">
+          <p className="text-lg md:text-xl text-secondary-foreground/70 mb-8 max-w-2xl fade-in stagger-2">
             Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. 
             Gwarantujemy perfekcyjne efekty i elastyczne terminy.
           </p>
@@ -49,9 +49,9 @@ export const HeroSection = () => {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 text-card/90"
+                className="flex items-center gap-2 text-secondary-foreground/80"
               >
-                <CheckCircle2 className="w-5 h-5 text-accent" />
+                <CheckCircle2 className="w-5 h-5 text-primary" />
                 <span className="text-sm font-medium">{benefit}</span>
               </div>
             ))}
@@ -59,33 +59,33 @@ export const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 fade-in stagger-4">
-            <Button variant="hero" size="xl" asChild>
+            <Button variant="cta" size="xl" asChild>
               <a href="#kontakt">
                 Zamów bezpłatną wycenę
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
             </Button>
-            <Button variant="hero-outline" size="xl" asChild>
+            <Button variant="outline" size="xl" className="border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
               <a href="#uslugi">Zobacz nasze usługi</a>
             </Button>
           </div>
 
           {/* Social proof */}
-          <div className="mt-12 pt-8 border-t border-card/20 fade-in stagger-4">
+          <div className="mt-12 pt-8 border-t border-secondary-foreground/10 fade-in stagger-4">
             <div className="flex flex-wrap items-center gap-8">
               <div>
-                <div className="text-3xl font-bold text-card">500+</div>
-                <div className="text-sm text-card/70">Zadowolonych klientów</div>
+                <div className="text-3xl font-bold text-secondary-foreground">500+</div>
+                <div className="text-sm text-secondary-foreground/60">Zadowolonych klientów</div>
               </div>
-              <div className="w-px h-12 bg-card/20" />
+              <div className="w-px h-12 bg-secondary-foreground/20" />
               <div>
-                <div className="text-3xl font-bold text-card">8 lat</div>
-                <div className="text-sm text-card/70">Doświadczenia</div>
+                <div className="text-3xl font-bold text-secondary-foreground">8 lat</div>
+                <div className="text-sm text-secondary-foreground/60">Doświadczenia</div>
               </div>
-              <div className="w-px h-12 bg-card/20 hidden sm:block" />
+              <div className="w-px h-12 bg-secondary-foreground/20 hidden sm:block" />
               <div className="hidden sm:block">
-                <div className="text-3xl font-bold text-card">100%</div>
-                <div className="text-sm text-card/70">Gwarancja jakości</div>
+                <div className="text-3xl font-bold text-secondary-foreground">100%</div>
+                <div className="text-sm text-secondary-foreground/60">Gwarancja jakości</div>
               </div>
             </div>
           </div>

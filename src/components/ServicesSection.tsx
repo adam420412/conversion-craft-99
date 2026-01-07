@@ -1,5 +1,6 @@
 import { Building2, Home, Sparkles, Warehouse, Hotel, Factory, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -7,42 +8,42 @@ const services = [
     title: "Sprzątanie biur",
     description: "Kompleksowe utrzymanie czystości w biurach i przestrzeniach coworkingowych.",
     features: ["Codzienne sprzątanie", "Mycie okien", "Dezynfekcja powierzchni"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-biur",
   },
   {
     icon: Home,
     title: "Sprzątanie mieszkań",
     description: "Regularne i jednorazowe sprzątanie mieszkań oraz domów jednorodzinnych.",
     features: ["Sprzątanie generalne", "Sprzątanie po remoncie", "Mycie okien"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-mieszkan",
   },
   {
     icon: Warehouse,
     title: "Sprzątanie biurowców",
     description: "Profesjonalna obsługa dużych obiektów biurowych i kompleksów biznesowych.",
     features: ["Obsługa całodobowa", "Serwis dzienny", "Sprzątanie części wspólnych"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-biurowcow",
   },
   {
     icon: Sparkles,
     title: "Sprzątanie po remoncie",
     description: "Dokładne usunięcie pyłu, brudu i resztek materiałów budowlanych.",
     features: ["Mycie okien", "Czyszczenie podłóg", "Usuwanie kleju i farby"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-po-remoncie",
   },
   {
     icon: Hotel,
     title: "Sprzątanie hoteli",
     description: "Kompleksowa obsługa obiektów hotelowych i apartamentów na wynajem.",
     features: ["Sprzątanie pokoi", "Wymiana pościeli", "Pranie i prasowanie"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-hoteli",
   },
   {
     icon: Factory,
     title: "Sprzątanie hal i magazynów",
     description: "Utrzymanie czystości w halach produkcyjnych i magazynowych.",
     features: ["Czyszczenie posadzek", "Mycie maszyn", "Utylizacja odpadów"],
-    href: "#kontakt",
+    href: "/uslugi/sprzatanie-hal",
   },
 ];
 
@@ -86,17 +87,17 @@ export const ServicesSection = () => {
               <ul className="space-y-2 mb-6">
                 {service.features.map((feature, fIndex) => (
                   <li key={fIndex} className="flex items-center gap-2 text-sm text-foreground">
-                    <div className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-primary" />
                     {feature}
                   </li>
                 ))}
               </ul>
 
               <Button variant="outline" className="w-full mt-auto group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary" asChild>
-                <a href={service.href}>
-                  Zapytaj o wycenę
+                <Link to={service.href}>
+                  Zobacz szczegóły
                   <ArrowRight className="w-4 h-4 ml-2" />
-                </a>
+                </Link>
               </Button>
             </article>
           ))}
