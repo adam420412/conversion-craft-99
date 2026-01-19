@@ -1,104 +1,96 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
-import cleanOffice from "@/assets/clean-office.jpg";
-import cleanApartment from "@/assets/clean-apartment.jpg";
-import cleanLobby from "@/assets/clean-lobby.jpg";
-import cleanHotel from "@/assets/clean-hotel.jpg";
+import { ArrowRight, ImagePlus } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const projects = [
+// Placeholder slots for future photos from clients
+const portfolioSlots = [
   {
-    title: "Biurowiec Centrum Warszawy",
-    category: "Sprzątanie biurowców",
-    description: "Kompleksowa obsługa 15-piętrowego biurowca. Codzienny serwis dla 500+ pracowników.",
-    stats: "8 000 m²",
-    image: cleanLobby,
-    href: "/uslugi/sprzatanie-biurowcow",
+    id: 1,
+    categoryKey: "building",
+    titlePlaceholder: "Biurowiec / Office Building",
+    hasImage: false,
   },
   {
-    title: "Apartament premium",
-    category: "Sprzątanie mieszkań",
-    description: "Regularne sprzątanie luksusowego apartamentu. Dbałość o każdy detal.",
-    stats: "180 m²",
-    image: cleanApartment,
-    href: "/uslugi/sprzatanie-mieszkan",
+    id: 2,
+    categoryKey: "apartment",
+    titlePlaceholder: "Apartament / Apartment",
+    hasImage: false,
   },
   {
-    title: "Sieć hoteli",
-    category: "Sprzątanie hoteli",
-    description: "Obsługa 3 hoteli w centrum miasta. Codzienne sprzątanie 200+ pokoi.",
-    stats: "200+ pokoi",
-    image: cleanHotel,
-    href: "/uslugi/sprzatanie-hoteli",
+    id: 3,
+    categoryKey: "hotel",
+    titlePlaceholder: "Hotel",
+    hasImage: false,
   },
   {
-    title: "Biuro korporacyjne",
-    category: "Sprzątanie biur",
-    description: "Utrzymanie czystości w nowoczesnym biurze open-space dla firmy IT.",
-    stats: "1 200 m²",
-    image: cleanOffice,
-    href: "/uslugi/sprzatanie-biur",
+    id: 4,
+    categoryKey: "office",
+    titlePlaceholder: "Biuro / Office",
+    hasImage: false,
+  },
+  {
+    id: 5,
+    categoryKey: "industrial",
+    titlePlaceholder: "Hala / Warehouse",
+    hasImage: false,
+  },
+  {
+    id: 6,
+    categoryKey: "renovation",
+    titlePlaceholder: "Po remoncie / Post-renovation",
+    hasImage: false,
   },
 ];
 
 export const PortfolioSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="realizacje" className="section-padding bg-muted/50">
       <div className="container-narrow mx-auto">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Nasze realizacje
+            {t("portfolio.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Zaufali nam klienci z różnych branż
+            {t("portfolio.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Zobacz przykłady naszych realizacji. Obsługujemy zarówno duże firmy, 
-            jak i klientów indywidualnych.
+            {t("portfolio.description")}
           </p>
         </div>
 
-        {/* Portfolio grid */}
-        <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
+        {/* Portfolio grid with placeholder slots */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {portfolioSlots.map((slot) => (
             <article
-              key={index}
+              key={slot.id}
               className="group relative overflow-hidden rounded-2xl bg-card border border-border"
             >
-              {/* Image */}
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
+              {/* Placeholder Image Area */}
+              <div className="h-56 bg-muted/80 flex flex-col items-center justify-center gap-4 border-b border-border">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <ImagePlus className="w-8 h-8 text-primary/60" />
+                </div>
+                <div className="text-center px-4">
+                  <p className="text-sm font-medium text-muted-foreground">
+                    {t("portfolio.comingSoon")}
+                  </p>
+                  <p className="text-xs text-muted-foreground/70 mt-1">
+                    {slot.titlePlaceholder}
+                  </p>
+                </div>
               </div>
               
               {/* Content */}
-              <div className="p-6 relative">
+              <div className="p-5">
                 <span className="inline-block text-xs font-semibold text-primary uppercase tracking-wider mb-2">
-                  {project.category}
+                  {t(`contact.services.${slot.categoryKey}`)}
                 </span>
-                <h3 className="text-xl font-bold text-foreground mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  {project.description}
+                <p className="text-sm text-muted-foreground">
+                  {t("portfolio.placeholder")}
                 </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-primary">
-                    {project.stats}
-                  </span>
-                  <Link 
-                    to={project.href}
-                    className="text-sm font-medium text-primary hover:underline flex items-center gap-1"
-                  >
-                    Zobacz usługę
-                    <ArrowRight className="w-3 h-3" />
-                  </Link>
-                </div>
               </div>
             </article>
           ))}
@@ -108,7 +100,7 @@ export const PortfolioSection = () => {
         <div className="text-center mt-12">
           <Button variant="default" size="lg" asChild>
             <a href="#kontakt">
-              Zostań naszym klientem
+              {t("portfolio.becomeClient")}
               <ArrowRight className="w-4 h-4 ml-2" />
             </a>
           </Button>

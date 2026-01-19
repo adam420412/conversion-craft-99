@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "services": "Cleaning Services",
+    "pricing": "Pricing",
+    "calculator": "Calculator",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "freeQuote": "Free Quote"
+  },
+  "hero": {
+    "badge": "Professional Cleaning Services",
+    "title": "Clean office, clear mind",
+    "titleHighlight": "Your success starts with order",
+    "description": "Professional cleaning services for businesses and individuals in Warsaw. Free quote within 24 hours.",
+    "cta": "Get a Free Quote",
+    "ctaSecondary": "View Our Services",
+    "stats": {
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "employees": "Employees"
+    }
+  },
+  "whyUs": {
+    "badge": "Why Us?",
+    "title": "Trust the Professionals",
+    "description": "We combine experience with modern solutions to ensure the highest quality of service.",
+    "features": {
+      "experience": {
+        "title": "10+ Years Experience",
+        "description": "Thousands of satisfied customers across Poland"
+      },
+      "eco": {
+        "title": "Eco-Friendly Products",
+        "description": "Safe for people, pets, and the environment"
+      },
+      "team": {
+        "title": "Verified Team",
+        "description": "Trained and insured employees"
+      },
+      "guarantee": {
+        "title": "Quality Guarantee",
+        "description": "Not satisfied? We'll come back for free"
+      }
+    }
+  },
+  "benefits": {
+    "badge": "Benefits",
+    "title": "What do you gain by working with us?",
+    "description": "Comprehensive service that saves your time and money"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Comprehensive Cleaning Services",
+    "description": "We offer a wide range of services tailored to your needs",
+    "viewDetails": "View Details",
+    "office": {
+      "title": "Office Cleaning",
+      "description": "Regular cleaning of office spaces with surface disinfection."
+    },
+    "apartment": {
+      "title": "Apartment Cleaning",
+      "description": "Comprehensive cleaning of homes and apartments, one-time or regular."
+    },
+    "building": {
+      "title": "Building Cleaning",
+      "description": "Service for large office buildings and business complexes."
+    },
+    "renovation": {
+      "title": "Post-Renovation Cleaning",
+      "description": "Thorough removal of dust, debris, and construction residue."
+    },
+    "hotel": {
+      "title": "Hotel Cleaning",
+      "description": "Professional service for hotels and vacation rentals."
+    },
+    "industrial": {
+      "title": "Industrial & Warehouse Cleaning",
+      "description": "Cleanliness in industrial facilities and warehouses."
+    }
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Simple Cooperation Process",
+    "description": "From first contact to regular cooperation - everything is simple and transparent",
+    "steps": {
+      "contact": {
+        "title": "Contact",
+        "description": "Call or fill out the form - we'll respond within 24 hours"
+      },
+      "quote": {
+        "title": "Quote",
+        "description": "Free visit and preparation of an individual offer"
+      },
+      "start": {
+        "title": "Start",
+        "description": "We set the schedule and begin cooperation"
+      },
+      "quality": {
+        "title": "Quality Control",
+        "description": "We regularly check quality and collect feedback"
+      }
+    }
+  },
+  "calculator": {
+    "badge": "Price Calculator",
+    "title": "Check the approximate price",
+    "description": "Calculate estimated cleaning costs based on area and service type",
+    "serviceType": "Service Type",
+    "area": "Area",
+    "frequency": "Frequency",
+    "estimatedPrice": "Estimated Price",
+    "perVisit": "per visit",
+    "discount": "discount",
+    "orderQuote": "Request Quote",
+    "reset": "Reset",
+    "frequencies": {
+      "once": "One-time",
+      "weekly": "Weekly",
+      "biweekly": "Every 2 weeks",
+      "monthly": "Monthly"
+    }
+  },
+  "pricing": {
+    "badge": "Cleaning Services Price List",
+    "title": "Transparent prices, no hidden costs",
+    "description": "Choose the package that suits your needs. Each quote is individual and depends on area and scope of work.",
+    "popular": "Most Popular",
+    "orderQuote": "Request Quote",
+    "note": "* Prices shown are approximate. The exact quote depends on area, scope of work, and location. Contact us for a free quote.",
+    "plans": {
+      "oneTime": {
+        "name": "One-Time Cleaning",
+        "description": "Ideal for special occasions or as a trial of our services",
+        "price": "from 150 PLN",
+        "unit": "per service",
+        "features": [
+          "Cleaning of all rooms",
+          "Bathroom and kitchen cleaning",
+          "Vacuuming and floor washing",
+          "Dust removal",
+          "Emptying trash bins"
+        ]
+      },
+      "regular": {
+        "name": "Regular Cleaning",
+        "description": "The best option for maintaining constant cleanliness",
+        "price": "from 120 PLN",
+        "unit": "per visit",
+        "features": [
+          "Everything from the one-time package",
+          "Dedicated cleaning team",
+          "Flexible schedules",
+          "10% discount on all services",
+          "Priority appointments",
+          "Dedicated account manager"
+        ]
+      },
+      "office": {
+        "name": "Office Cleaning",
+        "description": "Comprehensive service for office spaces",
+        "price": "Individual quote",
+        "unit": "per month",
+        "features": [
+          "Daily cleaning",
+          "Day service",
+          "Surface disinfection",
+          "Flexible working hours",
+          "Dedicated cleaning team",
+          "Dedicated account manager"
+        ]
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Our Portfolio",
+    "title": "Clients from various industries trust us",
+    "description": "See examples of our work. We serve both large companies and individual clients.",
+    "viewService": "View Service",
+    "becomeClient": "Become Our Client",
+    "comingSoon": "Project Photos",
+    "placeholder": "Space for project photo"
+  },
+  "testimonials": {
+    "badge": "Customer Reviews",
+    "title": "What do our clients say?",
+    "description": "Read the opinions of our satisfied customers"
+  },
+  "blog": {
+    "badge": "Blog & Tips",
+    "title": "Knowledge and Inspiration",
+    "description": "Expert tips, case studies, and trends in the cleaning industry",
+    "readMore": "Read More",
+    "viewAll": "View All Articles"
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Have questions? We have answers",
+    "description": "Find answers to the most commonly asked questions"
+  },
+  "cta": {
+    "title": "Ready for uncompromising cleanliness?",
+    "description": "Contact us today and get a free quote within 24 hours",
+    "button": "Get a Free Quote",
+    "phone": "or call"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact Us",
+    "description": "We'll answer all your questions and prepare a free quote",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Working Hours",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "phone": "Phone",
+      "phonePlaceholder": "+48 123 456 789",
+      "email": "Email",
+      "emailPlaceholder": "john@company.com",
+      "service": "Service Type",
+      "servicePlaceholder": "Select service",
+      "message": "Message",
+      "messagePlaceholder": "Describe your needs...",
+      "consent": "I consent to the processing of my personal data for the purpose of handling the inquiry",
+      "submit": "Send Inquiry",
+      "sending": "Sending...",
+      "success": "Thank you for your message!",
+      "successDescription": "We'll respond as soon as possible, usually within 24 hours.",
+      "sendAnother": "Send Another Inquiry"
+    },
+    "services": {
+      "office": "Office Cleaning",
+      "apartment": "Apartment Cleaning",
+      "building": "Building Cleaning",
+      "renovation": "Post-Renovation Cleaning",
+      "hotel": "Hotel Cleaning",
+      "industrial": "Industrial & Warehouse Cleaning",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "description": "Professional cleaning services for businesses and individuals. Trust the experts.",
+    "services": "Services",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "career": "Careers",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}
