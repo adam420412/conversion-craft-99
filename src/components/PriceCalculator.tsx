@@ -2,22 +2,25 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Calculator, ArrowRight, Home, Building2, Warehouse, Sparkles, RotateCcw } from "lucide-react";
-
-const serviceTypes = [
-  { id: "mieszkanie", label: "Sprzątanie mieszkania", icon: Home, basePrice: 8, minArea: 30, maxArea: 200 },
-  { id: "biuro", label: "Sprzątanie biura", icon: Building2, basePrice: 6, minArea: 50, maxArea: 500 },
-  { id: "biurowiec", label: "Sprzątanie biurowca", icon: Warehouse, basePrice: 4.5, minArea: 200, maxArea: 2000 },
-  { id: "remont", label: "Sprzątanie po remoncie", icon: Sparkles, basePrice: 15, minArea: 30, maxArea: 300 },
-];
-
-const frequencyOptions = [
-  { id: "jednorazowo", label: "Jednorazowo", discount: 0 },
-  { id: "tygodniowo", label: "Co tydzień", discount: 20 },
-  { id: "dwutygodniowo", label: "Co 2 tygodnie", discount: 15 },
-  { id: "miesiecznie", label: "Co miesiąc", discount: 10 },
-];
+import { useTranslation } from "react-i18next";
 
 export const PriceCalculator = () => {
+  const { t } = useTranslation();
+
+  const serviceTypes = [
+    { id: "mieszkanie", labelKey: "calculator.services.apartment", icon: Home, basePrice: 8, minArea: 30, maxArea: 200 },
+    { id: "biuro", labelKey: "calculator.services.office", icon: Building2, basePrice: 6, minArea: 50, maxArea: 500 },
+    { id: "biurowiec", labelKey: "calculator.services.building", icon: Warehouse, basePrice: 4.5, minArea: 200, maxArea: 2000 },
+    { id: "remont", labelKey: "calculator.services.renovation", icon: Sparkles, basePrice: 15, minArea: 30, maxArea: 300 },
+  ];
+
+  const frequencyOptions = [
+    { id: "jednorazowo", labelKey: "calculator.frequencies.once", discount: 0 },
+    { id: "tygodniowo", labelKey: "calculator.frequencies.weekly", discount: 20 },
+    { id: "dwutygodniowo", labelKey: "calculator.frequencies.biweekly", discount: 15 },
+    { id: "miesiecznie", labelKey: "calculator.frequencies.monthly", discount: 10 },
+  ];
+
   const [selectedService, setSelectedService] = useState(serviceTypes[0]);
   const [area, setArea] = useState([selectedService.minArea + 20]);
   const [frequency, setFrequency] = useState(frequencyOptions[0]);
@@ -45,13 +48,13 @@ export const PriceCalculator = () => {
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Kalkulator cen
+            {t("calculator.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Oblicz orientacyjny koszt sprzątania
+            {t("calculator.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Wybierz rodzaj usługi, powierzchnię i częstotliwość, a my obliczymy dla Ciebie przybliżoną cenę.
+            {t("calculator.description")}
           </p>
         </div>
 
@@ -63,7 +66,7 @@ export const PriceCalculator = () => {
                 {/* Service type */}
                 <div>
                   <label className="block text-sm font-semibold text-foreground mb-4">
-                    1. Wybierz rodzaj usługi
+                    1. {t("calculator.serviceType")}
                   </label>
                   <div className="grid sm:grid-cols-2 gap-3">
                     {serviceTypes.map((service) => (
@@ -84,7 +87,7 @@ export const PriceCalculator = () => {
                           <service.icon className="w-5 h-5" />
                         </div>
                         <span className="font-medium text-foreground text-sm">
-                          {service.label}
+                          {t(service.labelKey, service.id)}
                         </span>
                       </button>
                     ))}
@@ -94,7 +97,7 @@ export const PriceCalculator = () => {
                 {/* Area slider */}
                 <div>
                   <label className="block text-sm font-semibold text-foreground mb-4">
-                    2. Powierzchnia: <span className="text-primary">{area[0]} m²</span>
+                    2. {t("calculator.area")}: <span className="text-primary">{area[0]} m²</span>
                   </label>
                   <div className="px-2">
                     <Slider
@@ -115,7 +118,7 @@ export const PriceCalculator = () => {
                 {/* Frequency */}
                 <div>
                   <label className="block text-sm font-semibold text-foreground mb-4">
-                    3. Częstotliwość sprzątania
+                    3. {t("calculator.frequency")}
                   </label>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     {frequencyOptions.map((option) => (
@@ -129,7 +132,7 @@ export const PriceCalculator = () => {
                         }`}
                       >
                         <span className="block text-sm font-medium text-foreground">
-                          {option.label}
+                          {t(option.labelKey, option.id)}
                         </span>
                         {option.discount > 0 && (
                           <span className="block text-xs text-primary mt-1">
@@ -147,7 +150,7 @@ export const PriceCalculator = () => {
                   className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <RotateCcw className="w-4 h-4" />
-                  Resetuj kalkulator
+                  {t("calculator.reset")}
                 </button>
               </div>
 
@@ -158,7 +161,7 @@ export const PriceCalculator = () => {
                 </div>
                 
                 <p className="text-secondary-foreground/80 text-sm mb-2">
-                  Orientacyjna cena
+                  {t("calculator.estimatedPrice")}
                 </p>
                 
                 <div className="mb-2">
@@ -169,26 +172,28 @@ export const PriceCalculator = () => {
                 </div>
                 
                 <p className="text-secondary-foreground/60 text-sm mb-6">
-                  {frequency.id === "jednorazowo" ? "za jednorazową usługę" : "za każdą wizytę"}
+                  {frequency.id === "jednorazowo" 
+                    ? t("calculator.perService", "za jednorazową usługę") 
+                    : t("calculator.perVisit")}
                 </p>
 
                 {frequency.discount > 0 && (
                   <div className="bg-primary/20 rounded-lg px-4 py-2 mb-6 inline-block mx-auto">
                     <span className="text-sm font-medium text-primary">
-                      Oszczędzasz {frequency.discount}% wybierając regularne sprzątanie
+                      {t("calculator.savings", { discount: frequency.discount })}
                     </span>
                   </div>
                 )}
 
                 <Button variant="cta" size="xl" className="w-full" asChild>
                   <a href="#kontakt">
-                    Zamów wycenę
+                    {t("calculator.orderQuote")}
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </a>
                 </Button>
 
                 <p className="text-xs text-secondary-foreground/50 mt-4">
-                  * Dokładna cena może się różnić w zależności od zakresu prac
+                  {t("calculator.note", "* Dokładna cena może się różnić w zależności od zakresu prac")}
                 </p>
               </div>
             </div>

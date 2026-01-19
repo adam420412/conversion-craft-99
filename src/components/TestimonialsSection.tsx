@@ -1,47 +1,61 @@
 import { Star, Quote } from "lucide-react";
-
-const testimonials = [
-  {
-    name: "Anna Kowalska",
-    role: "Właścicielka mieszkania",
-    content: "Korzystam z usług CleanPro od roku. Fantastyczna jakość i punktualność. Polecam każdemu!",
-    rating: 5,
-  },
-  {
-    name: "Marek Nowak",
-    role: "Dyrektor operacyjny, TechCorp",
-    content: "Współpracujemy z CleanPro przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie.",
-    rating: 5,
-  },
-  {
-    name: "Katarzyna Wiśniewska",
-    role: "Manager hotelu",
-    content: "Niezawodni i elastyczni. Reagują na każdą potrzebę. Goście chwalą czystość pokoi.",
-    rating: 5,
-  },
-  {
-    name: "Piotr Zieliński",
-    role: "Właściciel firmy",
-    content: "Po kilku próbach z innymi firmami, w końcu znalazłem CleanPro. Jakość i cena idealne.",
-    rating: 5,
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const TestimonialsSection = () => {
+  const { t } = useTranslation();
+
+  const testimonials = [
+    {
+      nameKey: "testimonials.items.anna.name",
+      roleKey: "testimonials.items.anna.role",
+      contentKey: "testimonials.items.anna.content",
+      fallbackName: "Anna Kowalska",
+      fallbackRole: "Właścicielka mieszkania",
+      fallbackContent: "Korzystam z usług CleanPro od roku. Fantastyczna jakość i punktualność. Polecam każdemu!",
+      rating: 5,
+    },
+    {
+      nameKey: "testimonials.items.marek.name",
+      roleKey: "testimonials.items.marek.role",
+      contentKey: "testimonials.items.marek.content",
+      fallbackName: "Marek Nowak",
+      fallbackRole: "Dyrektor operacyjny, TechCorp",
+      fallbackContent: "Współpracujemy z CleanPro przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie.",
+      rating: 5,
+    },
+    {
+      nameKey: "testimonials.items.katarzyna.name",
+      roleKey: "testimonials.items.katarzyna.role",
+      contentKey: "testimonials.items.katarzyna.content",
+      fallbackName: "Katarzyna Wiśniewska",
+      fallbackRole: "Manager hotelu",
+      fallbackContent: "Niezawodni i elastyczni. Reagują na każdą potrzebę. Goście chwalą czystość pokoi.",
+      rating: 5,
+    },
+    {
+      nameKey: "testimonials.items.piotr.name",
+      roleKey: "testimonials.items.piotr.role",
+      contentKey: "testimonials.items.piotr.content",
+      fallbackName: "Piotr Zieliński",
+      fallbackRole: "Właściciel firmy",
+      fallbackContent: "Po kilku próbach z innymi firmami, w końcu znalazłem CleanPro. Jakość i cena idealne.",
+      rating: 5,
+    },
+  ];
+
   return (
     <section id="opinie" className="section-padding bg-background">
       <div className="container-narrow mx-auto">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Opinie klientów
+            {t("testimonials.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Co mówią o nas klienci
+            {t("testimonials.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Zaufało nam ponad 500 klientów. Poznaj ich opinie i przekonaj się, 
-            dlaczego warto wybrać nasze usługi sprzątania.
+            {t("testimonials.description")}
           </p>
         </div>
 
@@ -64,22 +78,22 @@ export const TestimonialsSection = () => {
               
               {/* Content */}
               <p className="text-foreground mb-6 relative z-10">
-                "{testimonial.content}"
+                "{t(testimonial.contentKey, testimonial.fallbackContent)}"
               </p>
               
               {/* Author */}
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <span className="text-lg font-bold text-primary">
-                    {testimonial.name.charAt(0)}
+                    {t(testimonial.nameKey, testimonial.fallbackName).charAt(0)}
                   </span>
                 </div>
                 <div>
                   <div className="font-semibold text-foreground">
-                    {testimonial.name}
+                    {t(testimonial.nameKey, testimonial.fallbackName)}
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    {testimonial.role}
+                    {t(testimonial.roleKey, testimonial.fallbackRole)}
                   </div>
                 </div>
               </div>
@@ -103,7 +117,7 @@ export const TestimonialsSection = () => {
               ))}
             </div>
             <span className="text-sm font-medium text-foreground ml-2">
-              Dołącz do 500+ zadowolonych klientów
+              {t("testimonials.join", "Dołącz do 500+ zadowolonych klientów")}
             </span>
           </div>
         </div>

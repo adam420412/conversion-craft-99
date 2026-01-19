@@ -11,115 +11,198 @@
   },
   "hero": {
     "badge": "Profesjonalne usługi sprzątania",
-    "title": "Czyste biuro, czysty umysł",
-    "titleHighlight": "Twój sukces zaczyna się od porządku",
-    "description": "Profesjonalne usługi sprzątania dla firm i osób prywatnych w Warszawie. Bezpłatna wycena w 24h.",
+    "title": "Profesjonalne sprzątanie biur i mieszkań",
+    "titleHighlight": "w Twojej okolicy",
+    "description": "Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. Gwarantujemy perfekcyjne efekty i elastyczne terminy.",
     "cta": "Zamów bezpłatną wycenę",
     "ctaSecondary": "Zobacz nasze usługi",
+    "imageAlt": "Profesjonalny zespół sprzątający CleanPro",
+    "benefits": {
+      "freeQuote": "Bezpłatna wycena w 24h",
+      "eco": "Ekologiczne środki czystości",
+      "qualified": "Wykwalifikowany personel"
+    },
     "stats": {
       "clients": "Zadowolonych klientów",
-      "experience": "Lat doświadczenia",
-      "employees": "Pracowników"
+      "experience": "lat",
+      "experienceLabel": "Doświadczenia",
+      "quality": "Gwarancja jakości"
     }
   },
   "whyUs": {
-    "badge": "Dlaczego my?",
-    "title": "Zaufaj profesjonalistom",
-    "description": "Łączymy doświadczenie z nowoczesnymi rozwiązaniami, aby zapewnić najwyższą jakość usług.",
-    "features": {
-      "experience": {
-        "title": "10+ lat doświadczenia",
-        "description": "Tysiące zadowolonych klientów w całej Polsce"
+    "badge": "Dlaczego my",
+    "title": "Zaufaj profesjonalistom od sprzątania",
+    "description": "Od ponad 8 lat dbamy o czystość biur, mieszkań i lokali użytkowych. Poznaj powody, dla których klienci nam ufają.",
+    "reasons": {
+      "guarantee": {
+        "title": "Gwarancja jakości",
+        "description": "Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów."
+      },
+      "punctuality": {
+        "title": "Punktualność",
+        "description": "Szanujemy Twój czas. Zawsze przyjeżdżamy o ustalonej godzinie."
       },
       "eco": {
         "title": "Ekologiczne środki",
-        "description": "Bezpieczne dla ludzi, zwierząt i środowiska"
+        "description": "Używamy certyfikowanych środków bezpiecznych dla ludzi i środowiska."
       },
-      "team": {
-        "title": "Zweryfikowany zespół",
-        "description": "Przeszkoleni i ubezpieczeni pracownicy"
+      "experience": {
+        "title": "Doświadczony zespół",
+        "description": "Nasi pracownicy są przeszkoleni i posiadają wieloletnie doświadczenie."
       },
-      "guarantee": {
-        "title": "Gwarancja jakości",
-        "description": "Jeśli nie jesteś zadowolony - wrócimy za darmo"
+      "individual": {
+        "title": "Indywidualne podejście",
+        "description": "Dostosowujemy usługi do Twoich potrzeb i preferencji."
+      },
+      "support": {
+        "title": "Wsparcie 24/7",
+        "description": "Jesteśmy dostępni, gdy nas potrzebujesz. Zadzwoń o każdej porze."
       }
     }
   },
   "benefits": {
-    "badge": "Korzyści",
-    "title": "Co zyskujesz współpracując z nami?",
-    "description": "Kompleksowa obsługa, która oszczędza Twój czas i pieniądze"
+    "badge": "Korzyści dla Ciebie",
+    "title": "Co zyskujesz wybierając nasze usługi sprzątania?",
+    "included": "W cenie każdej usługi:",
+    "features": {
+      "flexible": "Elastyczne terminy sprzątania",
+      "equipment": "Własny sprzęt i środki czystości",
+      "insurance": "Ubezpieczenie od szkód",
+      "team": "Stała ekipa sprzątająca",
+      "invoice": "Faktura VAT",
+      "nohidden": "Brak ukrytych kosztów"
+    },
+    "items": {
+      "productivity": {
+        "title": "Zwiększona produktywność",
+        "description": "Czyste biuro to efektywni pracownicy. Badania pokazują, że czystość wpływa na koncentrację i motywację."
+      },
+      "health": {
+        "title": "Zdrowe środowisko",
+        "description": "Regularne sprzątanie eliminuje alergeny, kurz i bakterie, dbając o zdrowie Twoje i Twoich bliskich."
+      },
+      "time": {
+        "title": "Oszczędność czasu",
+        "description": "Skup się na tym, co ważne. My zajmiemy się sprzątaniem, a Ty zyskasz cenny czas dla siebie."
+      }
+    },
+    "guarantee": {
+      "title": "Gwarancja satysfakcji:",
+      "description": "Jeśli nie będziesz zadowolony z naszych usług, wrócimy i poprawimy bez dodatkowych opłat."
+    }
   },
   "services": {
     "badge": "Nasze usługi",
-    "title": "Kompleksowe usługi sprzątania",
-    "description": "Oferujemy szeroki zakres usług dopasowanych do Twoich potrzeb",
+    "title": "Profesjonalne usługi sprzątania dla firm i osób prywatnych",
+    "description": "Oferujemy szeroki zakres usług sprzątających dostosowanych do Twoich potrzeb. Każdą usługę wykonujemy z najwyższą starannością.",
     "viewDetails": "Zobacz szczegóły",
     "office": {
       "title": "Sprzątanie biur",
-      "description": "Regularne sprzątanie przestrzeni biurowych z dezynfekcją powierzchni."
+      "description": "Kompleksowe utrzymanie czystości w biurach i przestrzeniach coworkingowych.",
+      "features": {
+        "daily": "Codzienne sprzątanie",
+        "windows": "Mycie okien",
+        "disinfection": "Dezynfekcja powierzchni"
+      }
     },
     "apartment": {
       "title": "Sprzątanie mieszkań",
-      "description": "Kompleksowe sprzątanie domów i mieszkań, jednorazowe lub regularne."
+      "description": "Regularne i jednorazowe sprzątanie mieszkań oraz domów jednorodzinnych.",
+      "features": {
+        "general": "Sprzątanie generalne",
+        "renovation": "Sprzątanie po remoncie",
+        "windows": "Mycie okien"
+      }
     },
     "building": {
       "title": "Sprzątanie biurowców",
-      "description": "Obsługa dużych obiektów biurowych i kompleksów biznesowych."
+      "description": "Profesjonalna obsługa dużych obiektów biurowych i kompleksów biznesowych.",
+      "features": {
+        "24h": "Obsługa całodobowa",
+        "day": "Serwis dzienny",
+        "common": "Sprzątanie części wspólnych"
+      }
     },
     "renovation": {
       "title": "Sprzątanie po remoncie",
-      "description": "Dokładne usuwanie pyłu, gruzu i pozostałości po pracach budowlanych."
+      "description": "Dokładne usunięcie pyłu, brudu i resztek materiałów budowlanych.",
+      "features": {
+        "windows": "Mycie okien",
+        "floors": "Czyszczenie podłóg",
+        "glue": "Usuwanie kleju i farby"
+      }
     },
     "hotel": {
       "title": "Sprzątanie hoteli",
-      "description": "Profesjonalna obsługa hoteli i apartamentów na wynajem."
+      "description": "Kompleksowa obsługa obiektów hotelowych i apartamentów na wynajem.",
+      "features": {
+        "rooms": "Sprzątanie pokoi",
+        "bedding": "Wymiana pościeli",
+        "laundry": "Pranie i prasowanie"
+      }
     },
     "industrial": {
       "title": "Sprzątanie hal i magazynów",
-      "description": "Utrzymanie czystości w obiektach przemysłowych i magazynowych."
+      "description": "Utrzymanie czystości w halach produkcyjnych i magazynowych.",
+      "features": {
+        "floors": "Czyszczenie posadzek",
+        "machines": "Mycie maszyn",
+        "waste": "Utylizacja odpadów"
+      }
     }
   },
   "process": {
     "badge": "Jak działamy",
     "title": "Prosty proces współpracy",
-    "description": "Od pierwszego kontaktu do regularnej współpracy - wszystko jest proste i przejrzyste",
+    "description": "Współpraca z nami jest prosta i przejrzysta. Oto jak wygląda cały proces od pierwszego kontaktu do realizacji usługi.",
     "steps": {
       "contact": {
         "title": "Kontakt",
-        "description": "Zadzwoń lub wypełnij formularz - odpowiemy w 24h"
+        "description": "Zadzwoń lub wypełnij formularz. Odpowiemy w ciągu 24 godzin."
       },
       "quote": {
-        "title": "Wycena",
-        "description": "Bezpłatna wizyta i przygotowanie indywidualnej oferty"
+        "title": "Bezpłatna wycena",
+        "description": "Przyjedziemy i ocenimy zakres prac. Przedstawimy szczegółową ofertę."
       },
-      "start": {
-        "title": "Start",
-        "description": "Ustalamy harmonogram i rozpoczynamy współpracę"
+      "schedule": {
+        "title": "Ustalenie terminu",
+        "description": "Wspólnie wybierzemy dogodny termin realizacji usługi."
       },
-      "quality": {
-        "title": "Kontrola jakości",
-        "description": "Regularnie sprawdzamy jakość i zbieramy feedback"
+      "execution": {
+        "title": "Realizacja",
+        "description": "Nasz zespół wykonuje usługę zgodnie z ustaleniami."
+      },
+      "completion": {
+        "title": "Odbiór i rozliczenie",
+        "description": "Sprawdzasz efekty, a my wystawiamy fakturę. Gotowe!"
       }
     }
   },
   "calculator": {
     "badge": "Kalkulator cen",
-    "title": "Sprawdź orientacyjną cenę",
-    "description": "Oblicz szacunkowy koszt sprzątania na podstawie powierzchni i rodzaju usługi",
-    "serviceType": "Rodzaj usługi",
+    "title": "Oblicz orientacyjny koszt sprzątania",
+    "description": "Wybierz rodzaj usługi, powierzchnię i częstotliwość, a my obliczymy dla Ciebie przybliżoną cenę.",
+    "serviceType": "Wybierz rodzaj usługi",
     "area": "Powierzchnia",
-    "frequency": "Częstotliwość",
-    "estimatedPrice": "Szacunkowa cena",
-    "perVisit": "za wizytę",
-    "discount": "zniżki",
+    "frequency": "Częstotliwość sprzątania",
+    "estimatedPrice": "Orientacyjna cena",
+    "perVisit": "za każdą wizytę",
+    "perService": "za jednorazową usługę",
     "orderQuote": "Zamów wycenę",
-    "reset": "Resetuj",
+    "reset": "Resetuj kalkulator",
+    "note": "* Dokładna cena może się różnić w zależności od zakresu prac",
+    "savings": "Oszczędzasz {{discount}}% wybierając regularne sprzątanie",
+    "services": {
+      "apartment": "Sprzątanie mieszkania",
+      "office": "Sprzątanie biura",
+      "building": "Sprzątanie biurowca",
+      "renovation": "Sprzątanie po remoncie"
+    },
     "frequencies": {
       "once": "Jednorazowo",
-      "weekly": "Raz w tygodniu",
+      "weekly": "Co tydzień",
       "biweekly": "Co 2 tygodnie",
-      "monthly": "Raz w miesiącu"
+      "monthly": "Co miesiąc"
     }
   },
   "pricing": {
@@ -184,8 +267,31 @@
   },
   "testimonials": {
     "badge": "Opinie klientów",
-    "title": "Co mówią o nas klienci?",
-    "description": "Poznaj opinie naszych zadowolonych klientów"
+    "title": "Co mówią o nas klienci",
+    "description": "Zaufało nam ponad 500 klientów. Poznaj ich opinie i przekonaj się, dlaczego warto wybrać nasze usługi sprzątania.",
+    "join": "Dołącz do 500+ zadowolonych klientów",
+    "items": {
+      "anna": {
+        "name": "Anna Kowalska",
+        "role": "Właścicielka mieszkania",
+        "content": "Korzystam z usług CleanPro od roku. Fantastyczna jakość i punktualność. Polecam każdemu!"
+      },
+      "marek": {
+        "name": "Marek Nowak",
+        "role": "Dyrektor operacyjny, TechCorp",
+        "content": "Współpracujemy z CleanPro przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie."
+      },
+      "katarzyna": {
+        "name": "Katarzyna Wiśniewska",
+        "role": "Manager hotelu",
+        "content": "Niezawodni i elastyczni. Reagują na każdą potrzebę. Goście chwalą czystość pokoi."
+      },
+      "piotr": {
+        "name": "Piotr Zieliński",
+        "role": "Właściciel firmy",
+        "content": "Po kilku próbach z innymi firmami, w końcu znalazłem CleanPro. Jakość i cena idealne."
+      }
+    }
   },
   "blog": {
     "badge": "Blog i porady",
@@ -195,61 +301,100 @@
     "viewAll": "Zobacz wszystkie artykuły"
   },
   "faq": {
-    "badge": "Najczęstsze pytania",
-    "title": "Masz pytania? Mamy odpowiedzi",
-    "description": "Znajdź odpowiedzi na najczęściej zadawane pytania"
+    "badge": "Pytania i odpowiedzi",
+    "title": "Najczęściej zadawane pytania o sprzątanie",
+    "description": "Znajdź odpowiedzi na najczęstsze pytania dotyczące naszych usług sprzątania. Jeśli nie znajdziesz odpowiedzi, skontaktuj się z nami.",
+    "otherQuestion": "Masz inne pytanie?",
+    "contactUs": "Skontaktuj się z nami telefonicznie lub mailowo. Chętnie odpowiemy na wszystkie Twoje pytania.",
+    "items": {
+      "order": {
+        "question": "Jak zamówić usługę sprzątania?",
+        "answer": "Wystarczy zadzwonić pod numer +48 123 456 789 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę."
+      },
+      "quote": {
+        "question": "Czy wycena jest bezpłatna?",
+        "answer": "Tak, wycena jest całkowicie bezpłatna i niezobowiązująca. Przyjedziemy, ocenimy zakres prac i przedstawimy szczegółową ofertę cenową."
+      },
+      "products": {
+        "question": "Jakie środki czystości stosujecie?",
+        "answer": "Używamy wyłącznie certyfikowanych, ekologicznych środków czystości, które są bezpieczne dla ludzi, zwierząt i środowiska. Na życzenie możemy również używać środków dostarczonych przez klienta."
+      },
+      "equipment": {
+        "question": "Czy macie własny sprzęt?",
+        "answer": "Tak, przyjeżdżamy z pełnym wyposażeniem - profesjonalne odkurzacze, mopy, środki czystości i wszystkie niezbędne akcesoria. Klient nie musi niczego zapewniać."
+      },
+      "hours": {
+        "question": "Czy możecie sprzątać wieczorami lub w weekendy?",
+        "answer": "Oczywiście! Dostosowujemy się do potrzeb klienta. Sprzątamy w godzinach porannych, wieczornych, a także w weekendy i święta (bez dodatkowych opłat)."
+      },
+      "satisfaction": {
+        "question": "Co jeśli nie będę zadowolony z usługi?",
+        "answer": "Oferujemy gwarancję satysfakcji. Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów w ciągu 24 godzin od zgłoszenia."
+      },
+      "invoice": {
+        "question": "Czy wystawiacie faktury VAT?",
+        "answer": "Tak, jesteśmy zarejestrowanym płatnikiem VAT i wystawiamy faktury dla firm oraz rachunki dla osób prywatnych."
+      },
+      "insurance": {
+        "question": "Czy macie ubezpieczenie?",
+        "answer": "Tak, posiadamy pełne ubezpieczenie OC, które chroni zarówno nas, jak i naszych klientów na wypadek ewentualnych szkód podczas wykonywania usługi."
+      }
+    }
   },
   "cta": {
-    "title": "Gotowy na czystość bez kompromisów?",
-    "description": "Skontaktuj się z nami już dziś i otrzymaj bezpłatną wycenę w 24 godziny",
+    "title": "Gotowy na profesjonalne sprzątanie?",
+    "description": "Zamów bezpłatną wycenę już dziś i przekonaj się, jak możemy pomóc w utrzymaniu czystości Twojego biura lub mieszkania.",
     "button": "Zamów bezpłatną wycenę",
-    "phone": "lub zadzwoń"
+    "phone": "Zadzwoń teraz",
+    "trust": "Ponad 500 zadowolonych klientów • Gwarancja jakości • Bezpłatna wycena"
   },
   "contact": {
     "badge": "Kontakt",
-    "title": "Skontaktuj się z nami",
-    "description": "Odpowiemy na wszystkie Twoje pytania i przygotujemy bezpłatną wycenę",
+    "title": "Zamów bezpłatną wycenę sprzątania",
+    "description": "Wypełnij formularz lub zadzwoń. Odpowiemy w ciągu 24 godzin i przedstawimy szczegółową ofertę.",
+    "contactData": "Dane kontaktowe",
     "phone": "Telefon",
-    "email": "E-mail",
+    "email": "Email",
     "address": "Adres",
     "hours": "Godziny pracy",
+    "mapTitle": "Lokalizacja CleanPro na mapie",
     "form": {
       "name": "Imię i nazwisko",
       "namePlaceholder": "Jan Kowalski",
       "phone": "Telefon",
       "phonePlaceholder": "+48 123 456 789",
-      "email": "E-mail",
-      "emailPlaceholder": "jan@firma.pl",
+      "email": "Email",
+      "emailPlaceholder": "jan@przykład.pl",
       "service": "Rodzaj usługi",
       "servicePlaceholder": "Wybierz usługę",
       "message": "Wiadomość",
-      "messagePlaceholder": "Opisz swoje potrzeby...",
-      "consent": "Wyrażam zgodę na przetwarzanie danych osobowych w celu realizacji zapytania",
+      "messagePlaceholder": "Opisz swoje potrzeby, podaj przybliżoną powierzchnię, częstotliwość sprzątania...",
+      "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu odpowiedzi na zapytanie.",
       "submit": "Wyślij zapytanie",
       "sending": "Wysyłanie...",
       "success": "Dziękujemy za wiadomość!",
-      "successDescription": "Odpowiemy najszybciej jak to możliwe, zwykle w ciągu 24 godzin.",
+      "successDescription": "Skontaktujemy się z Tobą w ciągu 24 godzin.",
       "sendAnother": "Wyślij kolejne zapytanie"
     },
     "services": {
-      "office": "Sprzątanie biur",
-      "apartment": "Sprzątanie mieszkań",
-      "building": "Sprzątanie biurowców",
+      "office": "Sprzątanie biura",
+      "apartment": "Sprzątanie mieszkania",
+      "building": "Sprzątanie biurowca",
       "renovation": "Sprzątanie po remoncie",
-      "hotel": "Sprzątanie hoteli",
+      "hotel": "Sprzątanie hotelu",
       "industrial": "Sprzątanie hal i magazynów",
       "other": "Inne"
     }
   },
   "footer": {
-    "description": "Profesjonalne usługi sprzątania dla firm i osób prywatnych. Zaufaj ekspertom.",
-    "services": "Usługi",
+    "description": "Profesjonalne usługi sprzątania dla firm i osób prywatnych. Zaufaj ekspertom od czystości.",
+    "services": "Usługi sprzątania",
     "company": "Firma",
+    "help": "Pomoc",
     "aboutUs": "O nas",
     "career": "Kariera",
     "privacyPolicy": "Polityka prywatności",
     "terms": "Regulamin",
-    "contact": "Kontakt",
-    "rights": "Wszelkie prawa zastrzeżone."
+    "rights": "Wszystkie prawa zastrzeżone."
   }
 }

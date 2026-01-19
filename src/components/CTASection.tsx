@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, Sparkles } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const CTASection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section-padding bg-background relative overflow-hidden">
       {/* Background decoration */}
@@ -18,32 +21,31 @@ export const CTASection = () => {
 
           {/* Content */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-foreground mb-6">
-            Gotowy na profesjonalne sprzątanie?
+            {t("cta.title")}
           </h2>
           <p className="text-xl text-secondary-foreground/70 mb-10 max-w-2xl mx-auto">
-            Zamów bezpłatną wycenę już dziś i przekonaj się, jak możemy pomóc 
-            w utrzymaniu czystości Twojego biura lub mieszkania.
+            {t("cta.description")}
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="cta" size="xl" asChild>
               <a href="#kontakt">
-                Zamów bezpłatną wycenę
+                {t("cta.button")}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
             </Button>
             <Button variant="outline" size="xl" className="border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
               <a href="tel:+48123456789">
                 <Phone className="w-5 h-5 mr-2" />
-                Zadzwoń teraz
+                {t("cta.phone")}
               </a>
             </Button>
           </div>
 
           {/* Trust badge */}
           <p className="mt-8 text-sm text-secondary-foreground/50">
-            Ponad 500 zadowolonych klientów • Gwarancja jakości • Bezpłatna wycena
+            {t("cta.trust", "Ponad 500 zadowolonych klientów • Gwarancja jakości • Bezpłatna wycena")}
           </p>
         </div>
       </div>

@@ -1,21 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/hero-cleaning-team.jpg";
 
-const benefits = [
-  "Bezpłatna wycena w 24h",
-  "Ekologiczne środki czystości",
-  "Wykwalifikowany personel",
-];
-
 export const HeroSection = () => {
+  const { t } = useTranslation();
+
+  const benefits = [
+    t("hero.benefits.freeQuote", "Bezpłatna wycena w 24h"),
+    t("hero.benefits.eco", "Ekologiczne środki czystości"),
+    t("hero.benefits.qualified", "Wykwalifikowany personel"),
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
-          alt="Profesjonalny zespół sprzątający CleanPro" 
+          alt={t("hero.imageAlt", "Profesjonalny zespół sprzątający")} 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-secondary/90" />
@@ -36,20 +39,19 @@ export const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6 fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">
-              Profesjonalne usługi sprzątające
+              {t("hero.badge")}
             </span>
           </div>
 
           {/* H1 - Main headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground leading-tight mb-6 fade-in stagger-1">
-            Profesjonalne sprzątanie biur i mieszkań{" "}
-            <span className="text-primary">w Twojej okolicy</span>
+            {t("hero.title")}{" "}
+            <span className="text-primary">{t("hero.titleHighlight")}</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-secondary-foreground/70 mb-8 max-w-2xl fade-in stagger-2">
-            Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. 
-            Gwarantujemy perfekcyjne efekty i elastyczne terminy.
+            {t("hero.description")}
           </p>
 
           {/* Benefits list */}
@@ -69,12 +71,12 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 fade-in stagger-4">
             <Button variant="cta" size="xl" asChild>
               <a href="#kontakt">
-                Zamów bezpłatną wycenę
+                {t("hero.cta")}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
             </Button>
             <Button variant="outline" size="xl" className="border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
-              <a href="#uslugi">Zobacz nasze usługi</a>
+              <a href="#uslugi">{t("hero.ctaSecondary")}</a>
             </Button>
           </div>
 
@@ -83,17 +85,17 @@ export const HeroSection = () => {
             <div className="flex flex-wrap items-center gap-8">
               <div>
                 <div className="text-3xl font-bold text-secondary-foreground">500+</div>
-                <div className="text-sm text-secondary-foreground/60">Zadowolonych klientów</div>
+                <div className="text-sm text-secondary-foreground/60">{t("hero.stats.clients")}</div>
               </div>
               <div className="w-px h-12 bg-secondary-foreground/20" />
               <div>
-                <div className="text-3xl font-bold text-secondary-foreground">8 lat</div>
-                <div className="text-sm text-secondary-foreground/60">Doświadczenia</div>
+                <div className="text-3xl font-bold text-secondary-foreground">8 {t("hero.stats.experience", "lat")}</div>
+                <div className="text-sm text-secondary-foreground/60">{t("hero.stats.experienceLabel", "Doświadczenia")}</div>
               </div>
               <div className="w-px h-12 bg-secondary-foreground/20 hidden sm:block" />
               <div className="hidden sm:block">
                 <div className="text-3xl font-bold text-secondary-foreground">100%</div>
-                <div className="text-sm text-secondary-foreground/60">Gwarancja jakości</div>
+                <div className="text-sm text-secondary-foreground/60">{t("hero.stats.quality", "Gwarancja jakości")}</div>
               </div>
             </div>
           </div>

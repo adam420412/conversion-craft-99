@@ -1,32 +1,35 @@
 import { Sparkles, Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const footerLinks = {
-  uslugi: [
-    { label: "Sprzątanie biur", href: "/uslugi/sprzatanie-biur" },
-    { label: "Sprzątanie mieszkań", href: "/uslugi/sprzatanie-mieszkan" },
-    { label: "Sprzątanie biurowców", href: "/uslugi/sprzatanie-biurowcow" },
-    { label: "Sprzątanie po remoncie", href: "/uslugi/sprzatanie-po-remoncie" },
-    { label: "Sprzątanie hoteli", href: "/uslugi/sprzatanie-hoteli" },
-    { label: "Sprzątanie hal", href: "/uslugi/sprzatanie-hal" },
-  ],
-  firma: [
-    { label: "O nas", href: "#" },
-    { label: "Realizacje", href: "/#realizacje" },
-    { label: "Opinie klientów", href: "/#opinie" },
-    { label: "Blog", href: "#" },
-    { label: "Kariera", href: "#" },
-  ],
-  pomoc: [
-    { label: "FAQ", href: "/#faq" },
-    { label: "Cennik", href: "/#cennik" },
-    { label: "Kalkulator cen", href: "/#kalkulator" },
-    { label: "Kontakt", href: "/#kontakt" },
-    { label: "Polityka prywatności", href: "#" },
-  ],
-};
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
+  const footerLinks = {
+    uslugi: [
+      { labelKey: "contact.services.office", href: "/uslugi/sprzatanie-biur" },
+      { labelKey: "contact.services.apartment", href: "/uslugi/sprzatanie-mieszkan" },
+      { labelKey: "contact.services.building", href: "/uslugi/sprzatanie-biurowcow" },
+      { labelKey: "contact.services.renovation", href: "/uslugi/sprzatanie-po-remoncie" },
+      { labelKey: "contact.services.hotel", href: "/uslugi/sprzatanie-hoteli" },
+      { labelKey: "contact.services.industrial", href: "/uslugi/sprzatanie-hal" },
+    ],
+    firma: [
+      { labelKey: "footer.aboutUs", href: "#" },
+      { labelKey: "nav.portfolio", href: "/#realizacje" },
+      { labelKey: "nav.testimonials", href: "/#opinie" },
+      { labelKey: "blog.badge", href: "#" },
+      { labelKey: "footer.career", href: "#" },
+    ],
+    pomoc: [
+      { labelKey: "nav.faq", href: "/#faq" },
+      { labelKey: "nav.pricing", href: "/#cennik" },
+      { labelKey: "nav.calculator", href: "/#kalkulator" },
+      { labelKey: "nav.contact", href: "/#kontakt" },
+      { labelKey: "footer.privacyPolicy", href: "#" },
+    ],
+  };
+
   return (
     <footer className="bg-secondary text-secondary-foreground/80">
       <div className="container-narrow mx-auto px-4 py-16">
@@ -40,8 +43,7 @@ export const Footer = () => {
               <span className="text-xl font-bold text-secondary-foreground">CleanPro</span>
             </Link>
             <p className="text-secondary-foreground/60 mb-6 max-w-sm">
-              Profesjonalne usługi sprzątania dla firm i osób prywatnych. 
-              Zaufaj ekspertom od czystości.
+              {t("footer.description")}
             </p>
             <div className="space-y-3">
               <a href="tel:+48123456789" className="flex items-center gap-3 hover:text-primary transition-colors">
@@ -61,12 +63,12 @@ export const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-secondary-foreground font-semibold mb-4">Usługi sprzątania</h4>
+            <h4 className="text-secondary-foreground font-semibold mb-4">{t("footer.services")}</h4>
             <ul className="space-y-2">
               {footerLinks.uslugi.map((link, index) => (
                 <li key={index}>
                   <Link to={link.href} className="hover:text-primary transition-colors">
-                    {link.label}
+                    {t(link.labelKey)}
                   </Link>
                 </li>
               ))}
@@ -75,12 +77,12 @@ export const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="text-secondary-foreground font-semibold mb-4">Firma</h4>
+            <h4 className="text-secondary-foreground font-semibold mb-4">{t("footer.company")}</h4>
             <ul className="space-y-2">
               {footerLinks.firma.map((link, index) => (
                 <li key={index}>
                   <a href={link.href} className="hover:text-primary transition-colors">
-                    {link.label}
+                    {t(link.labelKey)}
                   </a>
                 </li>
               ))}
@@ -89,12 +91,12 @@ export const Footer = () => {
 
           {/* Help */}
           <div>
-            <h4 className="text-secondary-foreground font-semibold mb-4">Pomoc</h4>
+            <h4 className="text-secondary-foreground font-semibold mb-4">{t("footer.help", "Pomoc")}</h4>
             <ul className="space-y-2">
               {footerLinks.pomoc.map((link, index) => (
                 <li key={index}>
                   <a href={link.href} className="hover:text-primary transition-colors">
-                    {link.label}
+                    {t(link.labelKey)}
                   </a>
                 </li>
               ))}
@@ -105,14 +107,14 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-secondary-foreground/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-secondary-foreground/50">
-            © 2024 CleanPro. Wszystkie prawa zastrzeżone.
+            © {new Date().getFullYear()} CleanPro. {t("footer.rights")}
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-secondary-foreground/50 hover:text-primary transition-colors">
-              Polityka prywatności
+              {t("footer.privacyPolicy")}
             </a>
             <a href="#" className="text-sm text-secondary-foreground/50 hover:text-primary transition-colors">
-              Regulamin
+              {t("footer.terms")}
             </a>
           </div>
         </div>

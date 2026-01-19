@@ -1,53 +1,67 @@
 import { Shield, Clock, Leaf, Award, Users, Headphones } from "lucide-react";
-
-const reasons = [
-  {
-    icon: Shield,
-    title: "Gwarancja jakości",
-    description: "Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów.",
-  },
-  {
-    icon: Clock,
-    title: "Punktualność",
-    description: "Szanujemy Twój czas. Zawsze przyjeżdżamy o ustalonej godzinie.",
-  },
-  {
-    icon: Leaf,
-    title: "Ekologiczne środki",
-    description: "Używamy certyfikowanych środków bezpiecznych dla ludzi i środowiska.",
-  },
-  {
-    icon: Award,
-    title: "Doświadczony zespół",
-    description: "Nasi pracownicy są przeszkoleni i posiadają wieloletnie doświadczenie.",
-  },
-  {
-    icon: Users,
-    title: "Indywidualne podejście",
-    description: "Dostosowujemy usługi do Twoich potrzeb i preferencji.",
-  },
-  {
-    icon: Headphones,
-    title: "Wsparcie 24/7",
-    description: "Jesteśmy dostępni, gdy nas potrzebujesz. Zadzwoń o każdej porze.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const WhyUsSection = () => {
+  const { t } = useTranslation();
+
+  const reasons = [
+    {
+      icon: Shield,
+      titleKey: "whyUs.reasons.guarantee.title",
+      descKey: "whyUs.reasons.guarantee.description",
+      fallbackTitle: "Gwarancja jakości",
+      fallbackDesc: "Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów.",
+    },
+    {
+      icon: Clock,
+      titleKey: "whyUs.reasons.punctuality.title",
+      descKey: "whyUs.reasons.punctuality.description",
+      fallbackTitle: "Punktualność",
+      fallbackDesc: "Szanujemy Twój czas. Zawsze przyjeżdżamy o ustalonej godzinie.",
+    },
+    {
+      icon: Leaf,
+      titleKey: "whyUs.reasons.eco.title",
+      descKey: "whyUs.reasons.eco.description",
+      fallbackTitle: "Ekologiczne środki",
+      fallbackDesc: "Używamy certyfikowanych środków bezpiecznych dla ludzi i środowiska.",
+    },
+    {
+      icon: Award,
+      titleKey: "whyUs.reasons.experience.title",
+      descKey: "whyUs.reasons.experience.description",
+      fallbackTitle: "Doświadczony zespół",
+      fallbackDesc: "Nasi pracownicy są przeszkoleni i posiadają wieloletnie doświadczenie.",
+    },
+    {
+      icon: Users,
+      titleKey: "whyUs.reasons.individual.title",
+      descKey: "whyUs.reasons.individual.description",
+      fallbackTitle: "Indywidualne podejście",
+      fallbackDesc: "Dostosowujemy usługi do Twoich potrzeb i preferencji.",
+    },
+    {
+      icon: Headphones,
+      titleKey: "whyUs.reasons.support.title",
+      descKey: "whyUs.reasons.support.description",
+      fallbackTitle: "Wsparcie 24/7",
+      fallbackDesc: "Jesteśmy dostępni, gdy nas potrzebujesz. Zadzwoń o każdej porze.",
+    },
+  ];
+
   return (
     <section className="section-padding bg-background">
       <div className="container-narrow mx-auto">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Dlaczego my
+            {t("whyUs.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Zaufaj profesjonalistom od sprzątania
+            {t("whyUs.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Od ponad 8 lat dbamy o czystość biur, mieszkań i lokali użytkowych. 
-            Poznaj powody, dla których klienci nam ufają.
+            {t("whyUs.description")}
           </p>
         </div>
 
@@ -62,10 +76,10 @@ export const WhyUsSection = () => {
                 <reason.icon className="w-7 h-7 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
-                {reason.title}
+                {t(reason.titleKey, reason.fallbackTitle)}
               </h3>
               <p className="text-muted-foreground">
-                {reason.description}
+                {t(reason.descKey, reason.fallbackDesc)}
               </p>
             </div>
           ))}

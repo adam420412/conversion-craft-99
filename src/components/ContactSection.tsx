@@ -4,50 +4,51 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-
-const contactInfo = [
-  {
-    icon: Phone,
-    label: "Telefon",
-    value: "+48 123 456 789",
-    href: "tel:+48123456789",
-  },
-  {
-    icon: Mail,
-    label: "Email",
-    value: "kontakt@cleanpro.pl",
-    href: "mailto:kontakt@cleanpro.pl",
-  },
-  {
-    icon: MapPin,
-    label: "Adres",
-    value: "ul. Czysta 15, 00-001 Warszawa",
-    href: "#",
-  },
-  {
-    icon: Clock,
-    label: "Godziny pracy",
-    value: "Pon-Pt: 8:00-18:00",
-    href: "#",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const ContactSection = () => {
   const { toast } = useToast();
+  const { t } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const contactInfo = [
+    {
+      icon: Phone,
+      labelKey: "contact.phone",
+      value: "+48 123 456 789",
+      href: "tel:+48123456789",
+    },
+    {
+      icon: Mail,
+      labelKey: "contact.email",
+      value: "kontakt@cleanpro.pl",
+      href: "mailto:kontakt@cleanpro.pl",
+    },
+    {
+      icon: MapPin,
+      labelKey: "contact.address",
+      value: "ul. Czysta 15, 00-001 Warszawa",
+      href: "#",
+    },
+    {
+      icon: Clock,
+      labelKey: "contact.hours",
+      value: "Pon-Pt: 8:00-18:00",
+      href: "#",
+    },
+  ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       toast({
-        title: "Wiadomość wysłana!",
-        description: "Skontaktujemy się z Tobą w ciągu 24 godzin.",
+        title: t("contact.form.success"),
+        description: t("contact.form.successDescription"),
       });
     }, 1500);
   };
@@ -58,14 +59,13 @@ export const ContactSection = () => {
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Kontakt
+            {t("contact.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Zamów bezpłatną wycenę sprzątania
+            {t("contact.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Wypełnij formularz lub zadzwoń. Odpowiemy w ciągu 24 godzin 
-            i przedstawimy szczegółową ofertę.
+            {t("contact.description")}
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export const ContactSection = () => {
           {/* Contact info */}
           <div className="lg:col-span-2 space-y-6">
             <h3 className="text-xl font-bold text-foreground mb-6">
-              Dane kontaktowe
+              {t("contact.contactData", "Dane kontaktowe")}
             </h3>
             
             <div className="space-y-4">
@@ -88,7 +88,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">
-                      {item.label}
+                      {t(item.labelKey)}
                     </div>
                     <div className="font-medium text-foreground">
                       {item.value}
@@ -108,7 +108,7 @@ export const ContactSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Lokalizacja CleanPro na mapie"
+                title={t("contact.mapTitle", "Lokalizacja na mapie")}
               />
             </div>
           </div>
@@ -122,13 +122,13 @@ export const ContactSection = () => {
                     <CheckCircle className="w-8 h-8 text-primary" />
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
-                    Dziękujemy za wiadomość!
+                    {t("contact.form.success")}
                   </h3>
                   <p className="text-muted-foreground mb-6">
-                    Skontaktujemy się z Tobą w ciągu 24 godzin.
+                    {t("contact.form.successDescription")}
                   </p>
                   <Button variant="outline" onClick={() => setIsSubmitted(false)}>
-                    Wyślij kolejne zapytanie
+                    {t("contact.form.sendAnother")}
                   </Button>
                 </div>
               ) : (
@@ -136,22 +136,22 @@ export const ContactSection = () => {
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Imię i nazwisko *
+                        {t("contact.form.name")} *
                       </label>
                       <Input
                         type="text"
-                        placeholder="Jan Kowalski"
+                        placeholder={t("contact.form.namePlaceholder")}
                         required
                         className="h-12"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Telefon *
+                        {t("contact.form.phone")} *
                       </label>
                       <Input
                         type="tel"
-                        placeholder="+48 123 456 789"
+                        placeholder={t("contact.form.phonePlaceholder")}
                         required
                         className="h-12"
                       />
@@ -160,37 +160,37 @@ export const ContactSection = () => {
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Email
+                      {t("contact.form.email")}
                     </label>
                     <Input
                       type="email"
-                      placeholder="jan@przykład.pl"
+                      placeholder={t("contact.form.emailPlaceholder")}
                       className="h-12"
                     />
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Rodzaj usługi
+                      {t("contact.form.service")}
                     </label>
                     <select className="w-full h-12 rounded-lg border border-input bg-background px-3 text-foreground">
-                      <option value="">Wybierz usługę</option>
-                      <option value="biuro">Sprzątanie biura</option>
-                      <option value="mieszkanie">Sprzątanie mieszkania</option>
-                      <option value="biurowiec">Sprzątanie biurowca</option>
-                      <option value="remont">Sprzątanie po remoncie</option>
-                      <option value="hotel">Sprzątanie hotelu</option>
-                      <option value="hala">Sprzątanie hal i magazynów</option>
-                      <option value="inne">Inne</option>
+                      <option value="">{t("contact.form.servicePlaceholder")}</option>
+                      <option value="biuro">{t("contact.services.office")}</option>
+                      <option value="mieszkanie">{t("contact.services.apartment")}</option>
+                      <option value="biurowiec">{t("contact.services.building")}</option>
+                      <option value="remont">{t("contact.services.renovation")}</option>
+                      <option value="hotel">{t("contact.services.hotel")}</option>
+                      <option value="hala">{t("contact.services.industrial")}</option>
+                      <option value="inne">{t("contact.services.other")}</option>
                     </select>
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Wiadomość
+                      {t("contact.form.message")}
                     </label>
                     <Textarea
-                      placeholder="Opisz swoje potrzeby, podaj przybliżoną powierzchnię, częstotliwość sprzątania..."
+                      placeholder={t("contact.form.messagePlaceholder")}
                       rows={4}
                     />
                   </div>
@@ -198,7 +198,7 @@ export const ContactSection = () => {
                   <div className="flex items-start gap-2">
                     <input type="checkbox" required className="mt-1" id="consent" />
                     <label htmlFor="consent" className="text-sm text-muted-foreground">
-                      Wyrażam zgodę na przetwarzanie moich danych osobowych w celu odpowiedzi na zapytanie. *
+                      {t("contact.form.consent")} *
                     </label>
                   </div>
 
@@ -210,10 +210,10 @@ export const ContactSection = () => {
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
-                      "Wysyłanie..."
+                      t("contact.form.sending")
                     ) : (
                       <>
-                        Wyślij zapytanie
+                        {t("contact.form.submit")}
                         <Send className="w-5 h-5 ml-2" />
                       </>
                     )}

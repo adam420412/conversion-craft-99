@@ -11,110 +11,193 @@
   },
   "hero": {
     "badge": "Professionelle Reinigungsdienste",
-    "title": "Sauberes Büro, klarer Kopf",
-    "titleHighlight": "Ihr Erfolg beginnt mit Ordnung",
-    "description": "Professionelle Reinigungsdienste für Unternehmen und Privatpersonen in Warschau. Kostenloses Angebot innerhalb von 24 Stunden.",
+    "title": "Professionelle Büro- und Wohnungsreinigung",
+    "titleHighlight": "in Ihrer Nähe",
+    "description": "Vertrauen Sie den Reinigungsexperten. Umfassende Reinigungsdienste für Unternehmen und Privatpersonen. Wir garantieren perfekte Ergebnisse und flexible Termine.",
     "cta": "Kostenloses Angebot anfordern",
     "ctaSecondary": "Unsere Dienstleistungen ansehen",
+    "imageAlt": "Professionelles Reinigungsteam CleanPro",
+    "benefits": {
+      "freeQuote": "Kostenlose Bewertung in 24h",
+      "eco": "Umweltfreundliche Reinigungsmittel",
+      "qualified": "Qualifiziertes Personal"
+    },
     "stats": {
       "clients": "Zufriedene Kunden",
-      "experience": "Jahre Erfahrung",
-      "employees": "Mitarbeiter"
+      "experience": "Jahre",
+      "experienceLabel": "Erfahrung",
+      "quality": "Qualitätsgarantie"
     }
   },
   "whyUs": {
-    "badge": "Warum wir?",
-    "title": "Vertrauen Sie den Profis",
-    "description": "Wir verbinden Erfahrung mit modernen Lösungen, um höchste Servicequalität zu gewährleisten.",
-    "features": {
-      "experience": {
-        "title": "10+ Jahre Erfahrung",
-        "description": "Tausende zufriedene Kunden in ganz Polen"
+    "badge": "Warum wir",
+    "title": "Vertrauen Sie den Reinigungsprofis",
+    "description": "Seit über 8 Jahren kümmern wir uns um die Sauberkeit von Büros, Wohnungen und Geschäftsräumen. Erfahren Sie, warum Kunden uns vertrauen.",
+    "reasons": {
+      "guarantee": {
+        "title": "Qualitätsgarantie",
+        "description": "Wenn Sie nicht zufrieden sind, kommen wir zurück und verbessern kostenlos."
+      },
+      "punctuality": {
+        "title": "Pünktlichkeit",
+        "description": "Wir respektieren Ihre Zeit. Wir kommen immer zur vereinbarten Zeit."
       },
       "eco": {
         "title": "Ökologische Mittel",
-        "description": "Sicher für Menschen, Tiere und Umwelt"
+        "description": "Wir verwenden zertifizierte Produkte, die sicher für Menschen und Umwelt sind."
       },
-      "team": {
-        "title": "Geprüftes Team",
-        "description": "Geschulte und versicherte Mitarbeiter"
+      "experience": {
+        "title": "Erfahrenes Team",
+        "description": "Unsere Mitarbeiter sind geschult und verfügen über langjährige Erfahrung."
       },
-      "guarantee": {
-        "title": "Qualitätsgarantie",
-        "description": "Nicht zufrieden? Wir kommen kostenlos zurück"
+      "individual": {
+        "title": "Individueller Ansatz",
+        "description": "Wir passen unsere Dienstleistungen an Ihre Bedürfnisse an."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Wir sind verfügbar, wenn Sie uns brauchen. Rufen Sie jederzeit an."
       }
     }
   },
   "benefits": {
-    "badge": "Vorteile",
-    "title": "Was gewinnen Sie durch die Zusammenarbeit mit uns?",
-    "description": "Umfassender Service, der Ihre Zeit und Ihr Geld spart"
+    "badge": "Ihre Vorteile",
+    "title": "Was gewinnen Sie, wenn Sie unsere Reinigungsdienste wählen?",
+    "included": "Im Preis jeder Dienstleistung enthalten:",
+    "features": {
+      "flexible": "Flexible Reinigungstermine",
+      "equipment": "Eigene Ausrüstung und Reinigungsmittel",
+      "insurance": "Schadensversicherung",
+      "team": "Festes Reinigungsteam",
+      "invoice": "Rechnung mit MwSt.",
+      "nohidden": "Keine versteckten Kosten"
+    },
+    "items": {
+      "productivity": {
+        "title": "Erhöhte Produktivität",
+        "description": "Ein sauberes Büro bedeutet effiziente Mitarbeiter. Studien zeigen, dass Sauberkeit Konzentration und Motivation beeinflusst."
+      },
+      "health": {
+        "title": "Gesunde Umgebung",
+        "description": "Regelmäßige Reinigung beseitigt Allergene, Staub und Bakterien und sorgt für Ihre Gesundheit."
+      },
+      "time": {
+        "title": "Zeitersparnis",
+        "description": "Konzentrieren Sie sich auf das Wichtige. Wir kümmern uns um die Reinigung, und Sie gewinnen wertvolle Zeit."
+      }
+    },
+    "guarantee": {
+      "title": "Zufriedenheitsgarantie:",
+      "description": "Wenn Sie nicht zufrieden sind, kommen wir zurück und verbessern ohne zusätzliche Kosten."
+    }
   },
   "services": {
     "badge": "Unsere Dienstleistungen",
-    "title": "Umfassende Reinigungsdienste",
-    "description": "Wir bieten eine breite Palette von Dienstleistungen an, die auf Ihre Bedürfnisse zugeschnitten sind",
+    "title": "Professionelle Reinigungsdienste für Unternehmen und Privatpersonen",
+    "description": "Wir bieten eine breite Palette von Reinigungsdiensten an, die auf Ihre Bedürfnisse zugeschnitten sind.",
     "viewDetails": "Details ansehen",
     "office": {
       "title": "Büroreinigung",
-      "description": "Regelmäßige Reinigung von Büroräumen mit Oberflächendesinfektion."
+      "description": "Umfassende Sauberkeit in Büros und Coworking-Spaces.",
+      "features": {
+        "daily": "Tägliche Reinigung",
+        "windows": "Fensterreinigung",
+        "disinfection": "Oberflächendesinfektion"
+      }
     },
     "apartment": {
       "title": "Wohnungsreinigung",
-      "description": "Umfassende Reinigung von Häusern und Wohnungen, einmalig oder regelmäßig."
+      "description": "Regelmäßige und einmalige Reinigung von Wohnungen und Einfamilienhäusern.",
+      "features": {
+        "general": "Grundreinigung",
+        "renovation": "Baureinigung",
+        "windows": "Fensterreinigung"
+      }
     },
     "building": {
       "title": "Gebäudereinigung",
-      "description": "Service für große Bürogebäude und Geschäftskomplexe."
+      "description": "Professioneller Service für große Bürogebäude und Geschäftskomplexe.",
+      "features": {
+        "24h": "24-Stunden-Service",
+        "day": "Tagesservice",
+        "common": "Reinigung von Gemeinschaftsbereichen"
+      }
     },
     "renovation": {
       "title": "Baureinigung",
-      "description": "Gründliche Entfernung von Staub, Schutt und Baurückständen."
+      "description": "Gründliche Entfernung von Staub, Schmutz und Baurückständen.",
+      "features": {
+        "windows": "Fensterreinigung",
+        "floors": "Bodenreinigung",
+        "glue": "Entfernung von Kleber und Farbe"
+      }
     },
     "hotel": {
       "title": "Hotelreinigung",
-      "description": "Professioneller Service für Hotels und Ferienwohnungen."
+      "description": "Umfassender Service für Hotels und Ferienwohnungen.",
+      "features": {
+        "rooms": "Zimmerreinigung",
+        "bedding": "Bettwäschewechsel",
+        "laundry": "Wäsche und Bügeln"
+      }
     },
     "industrial": {
       "title": "Industrie- und Lagerreinigung",
-      "description": "Sauberkeit in Industrieanlagen und Lagerhallen."
+      "description": "Sauberkeit in Produktionshallen und Lagern.",
+      "features": {
+        "floors": "Bodenreinigung",
+        "machines": "Maschinenreinigung",
+        "waste": "Abfallentsorgung"
+      }
     }
   },
   "process": {
     "badge": "Wie wir arbeiten",
     "title": "Einfacher Kooperationsprozess",
-    "description": "Vom ersten Kontakt bis zur regelmäßigen Zusammenarbeit - alles ist einfach und transparent",
+    "description": "Die Zusammenarbeit mit uns ist einfach und transparent. So sieht der gesamte Prozess von der ersten Kontaktaufnahme bis zur Ausführung aus.",
     "steps": {
       "contact": {
         "title": "Kontakt",
-        "description": "Rufen Sie an oder füllen Sie das Formular aus - wir antworten innerhalb von 24 Stunden"
+        "description": "Rufen Sie an oder füllen Sie das Formular aus. Wir antworten innerhalb von 24 Stunden."
       },
       "quote": {
-        "title": "Angebot",
-        "description": "Kostenloser Besuch und Erstellung eines individuellen Angebots"
+        "title": "Kostenlose Bewertung",
+        "description": "Wir kommen vorbei und bewerten den Arbeitsumfang. Wir erstellen ein detailliertes Angebot."
       },
-      "start": {
-        "title": "Start",
-        "description": "Wir legen den Zeitplan fest und beginnen die Zusammenarbeit"
+      "schedule": {
+        "title": "Terminvereinbarung",
+        "description": "Gemeinsam wählen wir einen passenden Termin für die Dienstleistung."
       },
-      "quality": {
-        "title": "Qualitätskontrolle",
-        "description": "Wir überprüfen regelmäßig die Qualität und sammeln Feedback"
+      "execution": {
+        "title": "Ausführung",
+        "description": "Unser Team führt die Dienstleistung gemäß den Vereinbarungen aus."
+      },
+      "completion": {
+        "title": "Abnahme und Abrechnung",
+        "description": "Sie prüfen die Ergebnisse, und wir stellen die Rechnung. Fertig!"
       }
     }
   },
   "calculator": {
     "badge": "Preisrechner",
-    "title": "Prüfen Sie den ungefähren Preis",
-    "description": "Berechnen Sie die geschätzten Reinigungskosten basierend auf Fläche und Serviceart",
-    "serviceType": "Serviceart",
+    "title": "Berechnen Sie die ungefähren Reinigungskosten",
+    "description": "Wählen Sie die Serviceart, Fläche und Häufigkeit, und wir berechnen den ungefähren Preis für Sie.",
+    "serviceType": "Wählen Sie die Serviceart",
     "area": "Fläche",
-    "frequency": "Häufigkeit",
+    "frequency": "Reinigungshäufigkeit",
     "estimatedPrice": "Geschätzter Preis",
     "perVisit": "pro Besuch",
-    "discount": "Rabatt",
+    "perService": "für einmaligen Service",
     "orderQuote": "Angebot anfordern",
-    "reset": "Zurücksetzen",
+    "reset": "Rechner zurücksetzen",
+    "note": "* Der genaue Preis kann je nach Arbeitsumfang variieren",
+    "savings": "Sie sparen {{discount}}% bei regelmäßiger Reinigung",
+    "services": {
+      "apartment": "Wohnungsreinigung",
+      "office": "Büroreinigung",
+      "building": "Gebäudereinigung",
+      "renovation": "Baureinigung"
+    },
     "frequencies": {
       "once": "Einmalig",
       "weekly": "Wöchentlich",
@@ -184,8 +267,31 @@
   },
   "testimonials": {
     "badge": "Kundenbewertungen",
-    "title": "Was sagen unsere Kunden?",
-    "description": "Lesen Sie die Meinungen unserer zufriedenen Kunden"
+    "title": "Was sagen unsere Kunden",
+    "description": "Über 500 Kunden vertrauen uns. Lesen Sie ihre Meinungen und überzeugen Sie sich, warum Sie unsere Reinigungsdienste wählen sollten.",
+    "join": "Schließen Sie sich 500+ zufriedenen Kunden an",
+    "items": {
+      "anna": {
+        "name": "Anna Kowalska",
+        "role": "Wohnungseigentümerin",
+        "content": "Ich nutze die Dienste von CleanPro seit einem Jahr. Fantastische Qualität und Pünktlichkeit. Ich empfehle es jedem!"
+      },
+      "marek": {
+        "name": "Marek Nowak",
+        "role": "Betriebsleiter, TechCorp",
+        "content": "Wir arbeiten mit CleanPro für unser Bürogebäude zusammen. Professionalität auf höchstem Niveau."
+      },
+      "katarzyna": {
+        "name": "Katarzyna Wiśniewska",
+        "role": "Hotelmanagerin",
+        "content": "Zuverlässig und flexibel. Sie reagieren auf jeden Bedarf. Gäste loben die Sauberkeit der Zimmer."
+      },
+      "piotr": {
+        "name": "Piotr Zieliński",
+        "role": "Unternehmer",
+        "content": "Nach mehreren Versuchen mit anderen Firmen habe ich endlich CleanPro gefunden. Qualität und Preis perfekt."
+      }
+    }
   },
   "blog": {
     "badge": "Blog und Tipps",
@@ -195,40 +301,79 @@
     "viewAll": "Alle Artikel ansehen"
   },
   "faq": {
-    "badge": "Häufig gestellte Fragen",
-    "title": "Haben Sie Fragen? Wir haben Antworten",
-    "description": "Finden Sie Antworten auf die häufigsten Fragen"
+    "badge": "Fragen und Antworten",
+    "title": "Häufig gestellte Fragen zur Reinigung",
+    "description": "Finden Sie Antworten auf die häufigsten Fragen zu unseren Reinigungsdiensten. Wenn Sie keine Antwort finden, kontaktieren Sie uns.",
+    "otherQuestion": "Haben Sie eine andere Frage?",
+    "contactUs": "Kontaktieren Sie uns telefonisch oder per E-Mail. Wir beantworten gerne alle Ihre Fragen.",
+    "items": {
+      "order": {
+        "question": "Wie bestelle ich einen Reinigungsservice?",
+        "answer": "Rufen Sie einfach +48 123 456 789 an oder füllen Sie das Kontaktformular auf unserer Website aus. Wir antworten innerhalb von 24 Stunden und vereinbaren eine kostenlose Bewertung."
+      },
+      "quote": {
+        "question": "Ist die Bewertung kostenlos?",
+        "answer": "Ja, die Bewertung ist völlig kostenlos und unverbindlich. Wir kommen, bewerten den Arbeitsumfang und erstellen ein detailliertes Preisangebot."
+      },
+      "products": {
+        "question": "Welche Reinigungsmittel verwenden Sie?",
+        "answer": "Wir verwenden ausschließlich zertifizierte, umweltfreundliche Reinigungsmittel, die sicher für Menschen, Tiere und Umwelt sind."
+      },
+      "equipment": {
+        "question": "Haben Sie eigene Ausrüstung?",
+        "answer": "Ja, wir kommen mit vollständiger Ausrüstung - professionelle Staubsauger, Wischmopps, Reinigungsmittel und alle notwendigen Zubehörteile."
+      },
+      "hours": {
+        "question": "Können Sie abends oder am Wochenende reinigen?",
+        "answer": "Natürlich! Wir passen uns den Kundenbedürfnissen an. Wir reinigen morgens, abends sowie an Wochenenden und Feiertagen."
+      },
+      "satisfaction": {
+        "question": "Was ist, wenn ich mit dem Service nicht zufrieden bin?",
+        "answer": "Wir bieten eine Zufriedenheitsgarantie. Wenn Sie nicht zufrieden sind, kommen wir zurück und verbessern kostenlos innerhalb von 24 Stunden."
+      },
+      "invoice": {
+        "question": "Stellen Sie Rechnungen mit MwSt. aus?",
+        "answer": "Ja, wir sind registrierter Mehrwertsteuerzahler und stellen Rechnungen für Unternehmen und Quittungen für Privatpersonen aus."
+      },
+      "insurance": {
+        "question": "Haben Sie eine Versicherung?",
+        "answer": "Ja, wir haben eine vollständige Haftpflichtversicherung, die sowohl uns als auch unsere Kunden im Falle von Schäden während der Dienstleistung schützt."
+      }
+    }
   },
   "cta": {
-    "title": "Bereit für kompromisslose Sauberkeit?",
-    "description": "Kontaktieren Sie uns noch heute und erhalten Sie ein kostenloses Angebot innerhalb von 24 Stunden",
+    "title": "Bereit für professionelle Reinigung?",
+    "description": "Fordern Sie noch heute ein kostenloses Angebot an und überzeugen Sie sich, wie wir Ihnen helfen können, die Sauberkeit Ihres Büros oder Ihrer Wohnung zu erhalten.",
     "button": "Kostenloses Angebot anfordern",
-    "phone": "oder rufen Sie an"
+    "phone": "Jetzt anrufen",
+    "trust": "Über 500 zufriedene Kunden • Qualitätsgarantie • Kostenlose Bewertung"
   },
   "contact": {
     "badge": "Kontakt",
-    "title": "Kontaktieren Sie uns",
-    "description": "Wir beantworten alle Ihre Fragen und erstellen ein kostenloses Angebot",
+    "title": "Kostenloses Reinigungsangebot anfordern",
+    "description": "Füllen Sie das Formular aus oder rufen Sie an. Wir antworten innerhalb von 24 Stunden und erstellen ein detailliertes Angebot.",
+    "contactData": "Kontaktdaten",
     "phone": "Telefon",
     "email": "E-Mail",
     "address": "Adresse",
     "hours": "Öffnungszeiten",
+    "mapTitle": "CleanPro Standort auf der Karte",
     "form": {
       "name": "Name",
       "namePlaceholder": "Max Mustermann",
       "phone": "Telefon",
       "phonePlaceholder": "+49 123 456 789",
       "email": "E-Mail",
-      "emailPlaceholder": "max@firma.de",
+      "emailPlaceholder": "max@beispiel.de",
       "service": "Serviceart",
       "servicePlaceholder": "Service auswählen",
       "message": "Nachricht",
-      "messagePlaceholder": "Beschreiben Sie Ihre Bedürfnisse...",
-      "consent": "Ich stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu",
+      "messagePlaceholder": "Beschreiben Sie Ihre Bedürfnisse, ungefähre Fläche, Reinigungshäufigkeit...",
+      "consent": "Ich stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu.",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet...",
       "success": "Vielen Dank für Ihre Nachricht!",
-      "successDescription": "Wir antworten so schnell wie möglich, normalerweise innerhalb von 24 Stunden.",
+      "successDescription": "Wir kontaktieren Sie innerhalb von 24 Stunden.",
       "sendAnother": "Weitere Anfrage senden"
     },
     "services": {
@@ -242,14 +387,14 @@
     }
   },
   "footer": {
-    "description": "Professionelle Reinigungsdienste für Unternehmen und Privatpersonen. Vertrauen Sie den Experten.",
-    "services": "Dienstleistungen",
+    "description": "Professionelle Reinigungsdienste für Unternehmen und Privatpersonen. Vertrauen Sie den Reinigungsexperten.",
+    "services": "Reinigungsdienste",
     "company": "Unternehmen",
+    "help": "Hilfe",
     "aboutUs": "Über uns",
     "career": "Karriere",
     "privacyPolicy": "Datenschutz",
     "terms": "AGB",
-    "contact": "Kontakt",
     "rights": "Alle Rechte vorbehalten."
   }
 }

@@ -1,53 +1,65 @@
 import { Phone, FileText, Calendar, Sparkles, CheckCircle } from "lucide-react";
-
-const steps = [
-  {
-    icon: Phone,
-    number: "01",
-    title: "Kontakt",
-    description: "Zadzwoń lub wypełnij formularz. Odpowiemy w ciągu 24 godzin.",
-  },
-  {
-    icon: FileText,
-    number: "02",
-    title: "Bezpłatna wycena",
-    description: "Przyjedziemy i ocenimy zakres prac. Przedstawimy szczegółową ofertę.",
-  },
-  {
-    icon: Calendar,
-    number: "03",
-    title: "Ustalenie terminu",
-    description: "Wspólnie wybierzemy dogodny termin realizacji usługi.",
-  },
-  {
-    icon: Sparkles,
-    number: "04",
-    title: "Realizacja",
-    description: "Nasz zespół wykonuje usługę zgodnie z ustaleniami.",
-  },
-  {
-    icon: CheckCircle,
-    number: "05",
-    title: "Odbiór i rozliczenie",
-    description: "Sprawdzasz efekty, a my wystawiamy fakturę. Gotowe!",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const ProcessSection = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      icon: Phone,
+      number: "01",
+      titleKey: "process.steps.contact.title",
+      descKey: "process.steps.contact.description",
+      fallbackTitle: "Kontakt",
+      fallbackDesc: "Zadzwoń lub wypełnij formularz. Odpowiemy w ciągu 24 godzin.",
+    },
+    {
+      icon: FileText,
+      number: "02",
+      titleKey: "process.steps.quote.title",
+      descKey: "process.steps.quote.description",
+      fallbackTitle: "Bezpłatna wycena",
+      fallbackDesc: "Przyjedziemy i ocenimy zakres prac. Przedstawimy szczegółową ofertę.",
+    },
+    {
+      icon: Calendar,
+      number: "03",
+      titleKey: "process.steps.schedule.title",
+      descKey: "process.steps.schedule.description",
+      fallbackTitle: "Ustalenie terminu",
+      fallbackDesc: "Wspólnie wybierzemy dogodny termin realizacji usługi.",
+    },
+    {
+      icon: Sparkles,
+      number: "04",
+      titleKey: "process.steps.execution.title",
+      descKey: "process.steps.execution.description",
+      fallbackTitle: "Realizacja",
+      fallbackDesc: "Nasz zespół wykonuje usługę zgodnie z ustaleniami.",
+    },
+    {
+      icon: CheckCircle,
+      number: "05",
+      titleKey: "process.steps.completion.title",
+      descKey: "process.steps.completion.description",
+      fallbackTitle: "Odbiór i rozliczenie",
+      fallbackDesc: "Sprawdzasz efekty, a my wystawiamy fakturę. Gotowe!",
+    },
+  ];
+
   return (
     <section className="section-padding bg-muted/50">
       <div className="container-narrow mx-auto">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-            Jak działamy
+            {t("process.badge")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Prosty proces współpracy
+            {t("process.title")}
           </h2>
           <p className="text-muted-foreground text-lg">
-            Współpraca z nami jest prosta i przejrzysta. Oto jak wygląda cały proces 
-            od pierwszego kontaktu do realizacji usługi.
+            {t("process.description")}
           </p>
         </div>
 
@@ -72,11 +84,11 @@ export const ProcessSection = () => {
                   </div>
                   
                   <h3 className="text-lg font-semibold text-foreground mb-2">
-                    {step.title}
+                    {t(step.titleKey, step.fallbackTitle)}
                   </h3>
                   
                   <p className="text-sm text-muted-foreground">
-                    {step.description}
+                    {t(step.descKey, step.fallbackDesc)}
                   </p>
                 </div>
               </div>
