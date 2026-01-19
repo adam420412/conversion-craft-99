@@ -1,5 +1,6 @@
+import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -239,7 +240,13 @@ const servicesData: Record<string, {
 
 export const ServicePage = () => {
   const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const service = slug ? servicesData[slug] : null;
+
+  // Scroll to top when navigating to service page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   if (!service) {
     return (

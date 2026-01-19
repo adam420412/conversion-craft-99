@@ -39,10 +39,10 @@ const plans = [
     features: [
       "Codzienne sprzątanie",
       "Serwis dzienny",
-      "Mycie okien (w cenie)",
       "Dezynfekcja powierzchni",
-      "Obsługa recepcji",
-      "Raportowanie",
+      "Elastyczne godziny pracy",
+      "Stała ekipa sprzątająca",
+      "Dedykowany opiekun klienta",
     ],
     popular: false,
   },
