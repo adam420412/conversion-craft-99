@@ -86,7 +86,7 @@ export const ServicePage = () => {
       <Helmet>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
-        <link rel="canonical" href={`https://cleanpro.pl/uslugi/${slug}`} />
+        <link rel="canonical" href={`https://www.domblasku.pl/uslugi/${slug}`} />
       </Helmet>
 
       <div className="min-h-screen">

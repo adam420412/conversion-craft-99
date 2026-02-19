@@ -16,7 +16,7 @@
     "description": "Trust the cleaning experts. Comprehensive cleaning services for businesses and individuals. We guarantee perfect results and flexible schedules.",
     "cta": "Get a Free Quote",
     "ctaSecondary": "View Our Services",
-    "imageAlt": "Professional CleanPro cleaning team",
+    "imageAlt": "Professional Dom Blasku cleaning team",
     "benefits": {
       "freeQuote": "Free quote within 24h",
       "eco": "Eco-friendly cleaning products",
@@ -274,12 +274,12 @@
       "anna": {
         "name": "Anna Kowalska",
         "role": "Apartment Owner",
-        "content": "I've been using CleanPro services for a year. Fantastic quality and punctuality. I recommend it to everyone!"
+        "content": "I've been using Dom Blasku services for a year. Fantastic quality and punctuality. I recommend it to everyone!"
       },
       "marek": {
         "name": "Marek Nowak",
         "role": "Operations Director, TechCorp",
-        "content": "We work with CleanPro for our office building. Professionalism at the highest level."
+        "content": "We work with Dom Blasku for our office building. Professionalism at the highest level."
       },
       "katarzyna": {
         "name": "Katarzyna Wiśniewska",
@@ -289,7 +289,7 @@
       "piotr": {
         "name": "Piotr Zieliński",
         "role": "Business Owner",
-        "content": "After several attempts with other companies, I finally found CleanPro. Quality and price perfect."
+        "content": "After several attempts with other companies, I finally found Dom Blasku. Quality and price perfect."
       }
     }
   },
@@ -309,7 +309,7 @@
     "items": {
       "order": {
         "question": "How do I order a cleaning service?",
-        "answer": "Simply call +48 123 456 789 or fill out the contact form on our website. We'll respond within 24 hours and schedule a free quote."
+        "answer": "Simply call +48 576 222 699 or fill out the contact form on our website. We'll respond within 24 hours and schedule a free quote."
       },
       "quote": {
         "question": "Is the quote free?",
@@ -357,7 +357,7 @@
     "email": "Email",
     "address": "Address",
     "hours": "Working Hours",
-    "mapTitle": "CleanPro location on the map",
+    "mapTitle": "Dom Blasku location on the map",
     "form": {
       "name": "Full Name",
       "namePlaceholder": "John Smith",
@@ -413,8 +413,8 @@
     "services": {
       "sprzatanie-biur": {
         "title": "Office Cleaning",
-        "metaTitle": "Professional Office Cleaning Warsaw | CleanPro",
-        "metaDescription": "Comprehensive office cleaning services in Warsaw. Daily cleaning, disinfection, window washing. Free quote. Call now!",
+        "metaTitle": "Professional Office Cleaning | Dom Blasku",
+        "metaDescription": "Comprehensive office cleaning services. Daily cleaning, disinfection, window washing. Free quote. Call now!",
         "heroDescription": "We provide professional and regular office cleaning that guarantees a clean and hygienic work environment for your employees.",
         "pricing": "from 6 PLN/m²",
         "benefits": [
@@ -443,8 +443,8 @@
       },
       "sprzatanie-mieszkan": {
         "title": "Apartment Cleaning",
-        "metaTitle": "Professional Apartment Cleaning Warsaw | CleanPro",
-        "metaDescription": "Apartment and house cleaning in Warsaw. One-time and regular services. Eco-friendly products, flexible schedules. Order now!",
+        "metaTitle": "Professional Apartment Cleaning | Dom Blasku",
+        "metaDescription": "Apartment and house cleaning. One-time and regular services. Eco-friendly products, flexible schedules. Order now!",
         "heroDescription": "Leave the cleaning to us and enjoy time with your family. We provide comprehensive apartment cleaning with attention to every detail.",
         "pricing": "from 8 PLN/m²",
         "benefits": [
@@ -473,7 +473,7 @@
       },
       "sprzatanie-biurowcow": {
         "title": "Building Cleaning",
-        "metaTitle": "Office Building and Complex Cleaning | CleanPro Warsaw",
+        "metaTitle": "Office Building and Complex Cleaning | Dom Blasku",
         "metaDescription": "Professional service for large office buildings. 24/7 service, permanent teams, comprehensive cleaning. Free quote!",
         "heroDescription": "We specialize in comprehensive service of large office buildings and business complexes. We provide service at the highest level.",
         "pricing": "individual quote",
@@ -503,7 +503,7 @@
       },
       "sprzatanie-po-remoncie": {
         "title": "Post-Renovation Cleaning",
-        "metaTitle": "Post-Renovation and Construction Cleaning | CleanPro Warsaw",
+        "metaTitle": "Post-Renovation and Construction Cleaning | Dom Blasku",
         "metaDescription": "Professional post-renovation, construction, and finishing cleaning. Dust, glue, paint removal. Fast and thorough. Call now!",
         "heroDescription": "Renovation is only half the job. Let us finish the work - we'll remove dust, dirt, and construction residues.",
         "pricing": "from 15 PLN/m²",
@@ -533,7 +533,7 @@
       },
       "sprzatanie-hoteli": {
         "title": "Hotel Cleaning",
-        "metaTitle": "Professional Hotel and Apartment Cleaning | CleanPro",
+        "metaTitle": "Professional Hotel and Apartment Cleaning | Dom Blasku",
         "metaDescription": "Comprehensive hotel and rental apartment service. Room cleaning, bedding change, laundry. Call for a quote!",
         "heroDescription": "We provide comprehensive service for hotels and short-term rentals. Your guests deserve perfect cleanliness.",
         "pricing": "individual quote",
@@ -563,7 +563,7 @@
       },
       "sprzatanie-hal": {
         "title": "Industrial & Warehouse Cleaning",
-        "metaTitle": "Production Hall and Warehouse Cleaning | CleanPro",
+        "metaTitle": "Production Hall and Warehouse Cleaning | Dom Blasku",
         "metaDescription": "Professional cleaning of production halls, warehouses, and plants. Floor cleaning, machine washing. Free quote!",
         "heroDescription": "We specialize in maintaining cleanliness in production halls, warehouses, and industrial plants. Safety and cleanliness are our priority.",
         "pricing": "from 4.5 PLN/m²",

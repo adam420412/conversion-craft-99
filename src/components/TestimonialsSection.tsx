@@ -11,7 +11,7 @@ export const TestimonialsSection = () => {
       contentKey: "testimonials.items.anna.content",
       fallbackName: "Anna Kowalska",
       fallbackRole: "Właścicielka mieszkania",
-      fallbackContent: "Korzystam z usług CleanPro od roku. Fantastyczna jakość i punktualność. Polecam każdemu!",
+      fallbackContent: "Korzystam z usług Dom Blasku od roku. Fantastyczna jakość i punktualność. Polecam każdemu!",
       rating: 5,
     },
     {
@@ -20,7 +20,7 @@ export const TestimonialsSection = () => {
       contentKey: "testimonials.items.marek.content",
       fallbackName: "Marek Nowak",
       fallbackRole: "Dyrektor operacyjny, TechCorp",
-      fallbackContent: "Współpracujemy z CleanPro przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie.",
+      fallbackContent: "Współpracujemy z Dom Blasku przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie.",
       rating: 5,
     },
     {
@@ -38,7 +38,7 @@ export const TestimonialsSection = () => {
       contentKey: "testimonials.items.piotr.content",
       fallbackName: "Piotr Zieliński",
       fallbackRole: "Właściciel firmy",
-      fallbackContent: "Po kilku próbach z innymi firmami, w końcu znalazłem CleanPro. Jakość i cena idealne.",
+      fallbackContent: "Po kilku próbach z innymi firmami, w końcu znalazłem Dom Blasku. Jakość i cena idealne.",
       rating: 5,
     },
   ];

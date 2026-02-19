@@ -36,7 +36,7 @@ export const CTASection = () => {
               </a>
             </Button>
             <Button variant="outline" size="xl" className="border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
-              <a href="tel:+48123456789">
+              <a href="tel:+48576222699">
                 <Phone className="w-5 h-5 mr-2" />
                 {t("cta.phone")}
               </a>

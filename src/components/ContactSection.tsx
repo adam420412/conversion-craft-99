@@ -16,19 +16,19 @@ export const ContactSection = () => {
     {
       icon: Phone,
       labelKey: "contact.phone",
-      value: "+48 123 456 789",
-      href: "tel:+48123456789",
+      value: "+48 576 222 699",
+      href: "tel:+48576222699",
     },
     {
       icon: Mail,
       labelKey: "contact.email",
-      value: "kontakt@cleanpro.pl",
-      href: "mailto:kontakt@cleanpro.pl",
+      value: "kontakt@domblasku.pl",
+      href: "mailto:kontakt@domblasku.pl",
     },
     {
       icon: MapPin,
       labelKey: "contact.address",
-      value: "ul. Czysta 15, 00-001 Warszawa",
+      value: "www.domblasku.pl",
       href: "#",
     },
     {
