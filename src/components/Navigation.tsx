@@ -14,7 +14,6 @@ export const Navigation = () => {
   const navItems = [
     { href: "/#uslugi", label: t("nav.services") },
     { href: "/#cennik", label: t("nav.pricing") },
-    { href: "/#kalkulator", label: t("nav.calculator") },
     { href: "/#realizacje", label: t("nav.portfolio") },
     { href: "/#opinie", label: t("nav.testimonials") },
     { href: "/#faq", label: t("nav.faq") },
@@ -44,26 +43,26 @@ export const Navigation = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="container-narrow mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2 shrink-0">
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className={`text-xl font-bold ${isScrolled ? "text-foreground" : "text-secondary-foreground"}`}>
+            <span className={`text-xl font-bold whitespace-nowrap ${isScrolled ? "text-foreground" : "text-secondary-foreground"}`}>
               Dom Blasku
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6">
+          <div className="hidden xl:flex items-center gap-5">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={() => handleNavClick(item.href)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
                   isScrolled ? "text-muted-foreground" : "text-secondary-foreground/80"
                 }`}
               >
@@ -73,24 +72,24 @@ export const Navigation = () => {
           </div>
 
           {/* CTA and Language Switcher */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3 shrink-0">
             <LanguageSwitcher isScrolled={isScrolled} />
             <a
               href="tel:+48576222699"
-              className={`flex items-center gap-2 text-sm font-medium transition-colors hover:text-primary ${
+              className={`flex items-center gap-1.5 text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
                 isScrolled ? "text-foreground" : "text-secondary-foreground"
               }`}
             >
               <Phone className="w-4 h-4" />
-              +48 576 222 699
+              576 222 699
             </a>
-            <Button variant="cta" size="default" asChild>
-              <a href="#kontakt">{t("nav.freeQuote")}</a>
+            <Button variant="cta" size="sm" asChild>
+              <a href="#kontakt" className="whitespace-nowrap">{t("nav.freeQuote")}</a>
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center gap-2 lg:hidden">
+          <div className="flex items-center gap-2 xl:hidden">
             <LanguageSwitcher isScrolled={isScrolled} />
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -104,7 +103,7 @@ export const Navigation = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="lg:hidden absolute top-16 left-0 right-0 bg-card border-b border-border shadow-lg">
+          <div className="xl:hidden absolute top-16 left-0 right-0 bg-card border-b border-border shadow-lg">
             <div className="container py-4 space-y-4">
               {navItems.map((item) => (
                 <a
