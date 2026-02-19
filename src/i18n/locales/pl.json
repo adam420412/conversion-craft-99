@@ -16,7 +16,7 @@
     "description": "Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. Gwarantujemy perfekcyjne efekty i elastyczne terminy.",
     "cta": "Zamów bezpłatną wycenę",
     "ctaSecondary": "Zobacz nasze usługi",
-    "imageAlt": "Profesjonalny zespół sprzątający CleanPro",
+    "imageAlt": "Profesjonalny zespół sprzątający Dom Blasku",
     "benefits": {
       "freeQuote": "Bezpłatna wycena w 24h",
       "eco": "Ekologiczne środki czystości",
@@ -274,12 +274,12 @@
       "anna": {
         "name": "Anna Kowalska",
         "role": "Właścicielka mieszkania",
-        "content": "Korzystam z usług CleanPro od roku. Fantastyczna jakość i punktualność. Polecam każdemu!"
+        "content": "Korzystam z usług Dom Blasku od roku. Fantastyczna jakość i punktualność. Polecam każdemu!"
       },
       "marek": {
         "name": "Marek Nowak",
         "role": "Dyrektor operacyjny, TechCorp",
-        "content": "Współpracujemy z CleanPro przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie."
+        "content": "Współpracujemy z Dom Blasku przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie."
       },
       "katarzyna": {
         "name": "Katarzyna Wiśniewska",
@@ -289,7 +289,7 @@
       "piotr": {
         "name": "Piotr Zieliński",
         "role": "Właściciel firmy",
-        "content": "Po kilku próbach z innymi firmami, w końcu znalazłem CleanPro. Jakość i cena idealne."
+        "content": "Po kilku próbach z innymi firmami, w końcu znalazłem Dom Blasku. Jakość i cena idealne."
       }
     }
   },
@@ -309,7 +309,7 @@
     "items": {
       "order": {
         "question": "Jak zamówić usługę sprzątania?",
-        "answer": "Wystarczy zadzwonić pod numer +48 123 456 789 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę."
+        "answer": "Wystarczy zadzwonić pod numer +48 576 222 699 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę."
       },
       "quote": {
         "question": "Czy wycena jest bezpłatna?",
@@ -357,7 +357,7 @@
     "email": "Email",
     "address": "Adres",
     "hours": "Godziny pracy",
-    "mapTitle": "Lokalizacja CleanPro na mapie",
+    "mapTitle": "Lokalizacja Dom Blasku na mapie",
     "form": {
       "name": "Imię i nazwisko",
       "namePlaceholder": "Jan Kowalski",
@@ -413,8 +413,8 @@
     "services": {
       "sprzatanie-biur": {
         "title": "Sprzątanie Biur",
-        "metaTitle": "Profesjonalne Sprzątanie Biur Warszawa | CleanPro",
-        "metaDescription": "Kompleksowe usługi sprzątania biur w Warszawie. Codzienne sprzątanie, dezynfekcja, mycie okien. Bezpłatna wycena. Zadzwoń!",
+        "metaTitle": "Profesjonalne Sprzątanie Biur | Dom Blasku",
+        "metaDescription": "Kompleksowe usługi sprzątania biur. Codzienne sprzątanie, dezynfekcja, mycie okien. Bezpłatna wycena. Zadzwoń!",
         "heroDescription": "Zapewniamy profesjonalne i regularne sprzątanie biur, które gwarantuje czyste i higieniczne środowisko pracy dla Twoich pracowników.",
         "pricing": "od 6 zł/m²",
         "benefits": [
@@ -443,8 +443,8 @@
       },
       "sprzatanie-mieszkan": {
         "title": "Sprzątanie Mieszkań",
-        "metaTitle": "Profesjonalne Sprzątanie Mieszkań Warszawa | CleanPro",
-        "metaDescription": "Sprzątanie mieszkań i domów w Warszawie. Jednorazowe i regularne usługi. Ekologiczne środki, elastyczne terminy. Zamów teraz!",
+        "metaTitle": "Profesjonalne Sprzątanie Mieszkań | Dom Blasku",
+        "metaDescription": "Sprzątanie mieszkań i domów. Jednorazowe i regularne usługi. Ekologiczne środki, elastyczne terminy. Zamów teraz!",
         "heroDescription": "Oddaj nam sprzątanie, a Ty ciesz się czasem z rodziną. Zapewniamy kompleksowe sprzątanie mieszkań z dbałością o każdy detal.",
         "pricing": "od 8 zł/m²",
         "benefits": [
@@ -473,7 +473,7 @@
       },
       "sprzatanie-biurowcow": {
         "title": "Sprzątanie Biurowców",
-        "metaTitle": "Sprzątanie Biurowców i Kompleksów Biurowych | CleanPro Warszawa",
+        "metaTitle": "Sprzątanie Biurowców i Kompleksów Biurowych | Dom Blasku",
         "metaDescription": "Profesjonalna obsługa dużych obiektów biurowych. Serwis 24/7, stałe ekipy, kompleksowe sprzątanie. Bezpłatna wycena!",
         "heroDescription": "Specjalizujemy się w kompleksowej obsłudze dużych obiektów biurowych i kompleksów biznesowych. Zapewniamy serwis na najwyższym poziomie.",
         "pricing": "wycena indywidualna",
@@ -503,7 +503,7 @@
       },
       "sprzatanie-po-remoncie": {
         "title": "Sprzątanie po Remoncie",
-        "metaTitle": "Sprzątanie po Remoncie i Budowie | CleanPro Warszawa",
+        "metaTitle": "Sprzątanie po Remoncie i Budowie | Dom Blasku",
         "metaDescription": "Profesjonalne sprzątanie po remoncie, budowie i wykończeniach. Usuwanie pyłu, kleju, farby. Szybko i dokładnie. Zadzwoń!",
         "heroDescription": "Remont to dopiero połowa sukcesu. Pozwól nam dokończyć dzieło - usuniemy pył, brud i pozostałości po pracach budowlanych.",
         "pricing": "od 15 zł/m²",
@@ -533,7 +533,7 @@
       },
       "sprzatanie-hoteli": {
         "title": "Sprzątanie Hoteli",
-        "metaTitle": "Profesjonalne Sprzątanie Hoteli i Apartamentów | CleanPro",
+        "metaTitle": "Profesjonalne Sprzątanie Hoteli i Apartamentów | Dom Blasku",
         "metaDescription": "Kompleksowa obsługa hoteli i apartamentów na wynajem. Sprzątanie pokoi, wymiana pościeli, pranie. Zadzwoń po ofertę!",
         "heroDescription": "Zapewniamy kompleksową obsługę obiektów hotelowych i apartamentów na wynajem krótkookresowy. Twoi goście zasługują na perfekcyjną czystość.",
         "pricing": "wycena indywidualna",
@@ -563,7 +563,7 @@
       },
       "sprzatanie-hal": {
         "title": "Sprzątanie Hal i Magazynów",
-        "metaTitle": "Sprzątanie Hal Produkcyjnych i Magazynów | CleanPro",
+        "metaTitle": "Sprzątanie Hal Produkcyjnych i Magazynów | Dom Blasku",
         "metaDescription": "Profesjonalne sprzątanie hal produkcyjnych, magazynów i zakładów. Czyszczenie posadzek, mycie maszyn. Bezpłatna wycena!",
         "heroDescription": "Specjalizujemy się w utrzymaniu czystości w halach produkcyjnych, magazynach i zakładach przemysłowych. Bezpieczeństwo i czystość to nasz priorytet.",
         "pricing": "od 4.5 zł/m²",

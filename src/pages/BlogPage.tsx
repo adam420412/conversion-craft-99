@@ -92,7 +92,7 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>Blog o Sprzątaniu | Porady i Poradniki | CleanPro</title>
+        <title>Blog o Sprzątaniu | Porady i Poradniki | Dom Blasku</title>
         <meta
           name="description"
           content="Blog o profesjonalnym sprzątaniu. Porady ekspertów, poradniki, trendy w branży. Dowiedz się jak utrzymać czystość w domu i biurze."

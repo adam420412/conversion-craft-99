@@ -16,7 +16,7 @@
     "description": "Vertrauen Sie den Reinigungsexperten. Umfassende Reinigungsdienste für Unternehmen und Privatpersonen. Wir garantieren perfekte Ergebnisse und flexible Termine.",
     "cta": "Kostenloses Angebot anfordern",
     "ctaSecondary": "Unsere Dienstleistungen ansehen",
-    "imageAlt": "Professionelles Reinigungsteam CleanPro",
+    "imageAlt": "Professionelles Reinigungsteam Dom Blasku",
     "benefits": {
       "freeQuote": "Kostenlose Bewertung in 24h",
       "eco": "Umweltfreundliche Reinigungsmittel",
@@ -274,12 +274,12 @@
       "anna": {
         "name": "Anna Kowalska",
         "role": "Wohnungseigentümerin",
-        "content": "Ich nutze die Dienste von CleanPro seit einem Jahr. Fantastische Qualität und Pünktlichkeit. Ich empfehle es jedem!"
+        "content": "Ich nutze die Dienste von Dom Blasku seit einem Jahr. Fantastische Qualität und Pünktlichkeit. Ich empfehle es jedem!"
       },
       "marek": {
         "name": "Marek Nowak",
         "role": "Betriebsleiter, TechCorp",
-        "content": "Wir arbeiten mit CleanPro für unser Bürogebäude zusammen. Professionalität auf höchstem Niveau."
+        "content": "Wir arbeiten mit Dom Blasku für unser Bürogebäude zusammen. Professionalität auf höchstem Niveau."
       },
       "katarzyna": {
         "name": "Katarzyna Wiśniewska",
@@ -289,7 +289,7 @@
       "piotr": {
         "name": "Piotr Zieliński",
         "role": "Unternehmer",
-        "content": "Nach mehreren Versuchen mit anderen Firmen habe ich endlich CleanPro gefunden. Qualität und Preis perfekt."
+        "content": "Nach mehreren Versuchen mit anderen Firmen habe ich endlich Dom Blasku gefunden. Qualität und Preis perfekt."
       }
     }
   },
@@ -309,7 +309,7 @@
     "items": {
       "order": {
         "question": "Wie bestelle ich einen Reinigungsservice?",
-        "answer": "Rufen Sie einfach +48 123 456 789 an oder füllen Sie das Kontaktformular auf unserer Website aus. Wir antworten innerhalb von 24 Stunden und vereinbaren eine kostenlose Bewertung."
+        "answer": "Rufen Sie einfach +48 576 222 699 an oder füllen Sie das Kontaktformular auf unserer Website aus. Wir antworten innerhalb von 24 Stunden und vereinbaren eine kostenlose Bewertung."
       },
       "quote": {
         "question": "Ist die Bewertung kostenlos?",
@@ -357,7 +357,7 @@
     "email": "E-Mail",
     "address": "Adresse",
     "hours": "Öffnungszeiten",
-    "mapTitle": "CleanPro Standort auf der Karte",
+    "mapTitle": "Dom Blasku Standort auf der Karte",
     "form": {
       "name": "Name",
       "namePlaceholder": "Max Mustermann",
@@ -413,8 +413,8 @@
     "services": {
       "sprzatanie-biur": {
         "title": "Büroreinigung",
-        "metaTitle": "Professionelle Büroreinigung Warschau | CleanPro",
-        "metaDescription": "Umfassende Büroreinigungsdienste in Warschau. Tägliche Reinigung, Desinfektion, Fensterreinigung. Kostenloses Angebot. Rufen Sie an!",
+        "metaTitle": "Professionelle Büroreinigung | Dom Blasku",
+        "metaDescription": "Umfassende Büroreinigungsdienste. Tägliche Reinigung, Desinfektion, Fensterreinigung. Kostenloses Angebot. Rufen Sie an!",
         "heroDescription": "Wir bieten professionelle und regelmäßige Büroreinigung, die eine saubere und hygienische Arbeitsumgebung für Ihre Mitarbeiter garantiert.",
         "pricing": "ab 6 PLN/m²",
         "benefits": [
@@ -443,8 +443,8 @@
       },
       "sprzatanie-mieszkan": {
         "title": "Wohnungsreinigung",
-        "metaTitle": "Professionelle Wohnungsreinigung Warschau | CleanPro",
-        "metaDescription": "Wohnungs- und Hausreinigung in Warschau. Einmalige und regelmäßige Dienste. Ökologische Mittel, flexible Termine. Jetzt bestellen!",
+        "metaTitle": "Professionelle Wohnungsreinigung | Dom Blasku",
+        "metaDescription": "Wohnungs- und Hausreinigung. Einmalige und regelmäßige Dienste. Ökologische Mittel, flexible Termine. Jetzt bestellen!",
         "heroDescription": "Überlassen Sie uns die Reinigung und genießen Sie Zeit mit Ihrer Familie. Wir bieten umfassende Wohnungsreinigung mit Liebe zum Detail.",
         "pricing": "ab 8 PLN/m²",
         "benefits": [
@@ -473,7 +473,7 @@
       },
       "sprzatanie-biurowcow": {
         "title": "Gebäudereinigung",
-        "metaTitle": "Reinigung von Bürogebäuden und Komplexen | CleanPro Warschau",
+        "metaTitle": "Reinigung von Bürogebäuden und Komplexen | Dom Blasku",
         "metaDescription": "Professioneller Service für große Bürogebäude. 24/7 Service, feste Teams, umfassende Reinigung. Kostenloses Angebot!",
         "heroDescription": "Wir sind spezialisiert auf die umfassende Betreuung großer Bürogebäude und Geschäftskomplexe. Wir bieten Service auf höchstem Niveau.",
         "pricing": "individuelles Angebot",
@@ -503,7 +503,7 @@
       },
       "sprzatanie-po-remoncie": {
         "title": "Baureinigung",
-        "metaTitle": "Baureinigung nach Renovierung | CleanPro Warschau",
+        "metaTitle": "Baureinigung nach Renovierung | Dom Blasku",
         "metaDescription": "Professionelle Reinigung nach Renovierung, Bau und Ausbau. Entfernung von Staub, Kleber, Farbe. Schnell und gründlich. Rufen Sie an!",
         "heroDescription": "Die Renovierung ist erst die halbe Arbeit. Lassen Sie uns das Werk vollenden - wir entfernen Staub, Schmutz und Baurückstände.",
         "pricing": "ab 15 PLN/m²",
@@ -533,7 +533,7 @@
       },
       "sprzatanie-hoteli": {
         "title": "Hotelreinigung",
-        "metaTitle": "Professionelle Hotel- und Apartmentreinigung | CleanPro",
+        "metaTitle": "Professionelle Hotel- und Apartmentreinigung | Dom Blasku",
         "metaDescription": "Umfassender Service für Hotels und Ferienwohnungen. Zimmerreinigung, Bettwäschewechsel, Wäsche. Rufen Sie für ein Angebot an!",
         "heroDescription": "Wir bieten umfassende Betreuung von Hotels und Kurzzeitvermietungen. Ihre Gäste verdienen makellose Sauberkeit.",
         "pricing": "individuelles Angebot",
@@ -563,7 +563,7 @@
       },
       "sprzatanie-hal": {
         "title": "Hallen- und Lagerreinigung",
-        "metaTitle": "Reinigung von Produktionshallen und Lagern | CleanPro",
+        "metaTitle": "Reinigung von Produktionshallen und Lagern | Dom Blasku",
         "metaDescription": "Professionelle Reinigung von Produktionshallen, Lagern und Betrieben. Bodenreinigung, Maschinenreinigung. Kostenloses Angebot!",
         "heroDescription": "Wir sind spezialisiert auf die Sauberkeit in Produktionshallen, Lagern und Industriebetrieben. Sicherheit und Sauberkeit haben Priorität.",
         "pricing": "ab 4,5 PLN/m²",

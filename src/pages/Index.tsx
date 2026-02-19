@@ -19,19 +19,19 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Profesjonalne Sprzątanie Biur i Mieszkań | CleanPro Warszawa</title>
+        <title>Profesjonalne Sprzątanie Biur i Mieszkań | Dom Blasku</title>
         <meta 
           name="description" 
-          content="Profesjonalne usługi sprzątania biur, mieszkań i biurowców w Warszawie. Bezpłatna wycena w 24h. Ekologiczne środki, doświadczony zespół. Zadzwoń!" 
+          content="Profesjonalne usługi sprzątania biur, mieszkań i biurowców. Bezpłatna wycena w 24h. Ekologiczne środki, doświadczony zespół. Zadzwoń!" 
         />
         <meta 
           name="keywords" 
-          content="sprzątanie biur, sprzątanie mieszkań, sprzątanie biurowców, firma sprzątająca Warszawa, usługi sprzątania, sprzątanie po remoncie" 
+          content="sprzątanie biur, sprzątanie mieszkań, sprzątanie biurowców, firma sprzątająca, usługi sprzątania, sprzątanie po remoncie, dom blasku" 
         />
-        <link rel="canonical" href="https://cleanpro.pl" />
+        <link rel="canonical" href="https://www.domblasku.pl" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Profesjonalne Sprzątanie Biur i Mieszkań | CleanPro" />
+        <meta property="og:title" content="Profesjonalne Sprzątanie Biur i Mieszkań | Dom Blasku" />
         <meta property="og:description" content="Profesjonalne usługi sprzątania dla firm i osób prywatnych. Bezpłatna wycena w 24h." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="pl_PL" />
@@ -41,11 +41,11 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "CleanPro - Profesjonalne Usługi Sprzątania",
-            "description": "Profesjonalne usługi sprzątania biur, mieszkań i biurowców w Warszawie",
-            "url": "https://cleanpro.pl",
-            "telephone": "+48123456789",
-            "email": "kontakt@cleanpro.pl",
+            "name": "Dom Blasku - Profesjonalne Usługi Sprzątania",
+            "description": "Profesjonalne usługi sprzątania biur, mieszkań i biurowców",
+            "url": "https://www.domblasku.pl",
+            "telephone": "+48576222699",
+            "email": "kontakt@domblasku.pl",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "ul. Czysta 15",

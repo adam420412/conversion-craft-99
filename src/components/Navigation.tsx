@@ -52,7 +52,7 @@ export const Navigation = () => {
               <Sparkles className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className={`text-xl font-bold ${isScrolled ? "text-foreground" : "text-secondary-foreground"}`}>
-              CleanPro
+              Dom Blasku
             </span>
           </Link>
 
@@ -76,13 +76,13 @@ export const Navigation = () => {
           <div className="hidden md:flex items-center gap-3">
             <LanguageSwitcher isScrolled={isScrolled} />
             <a
-              href="tel:+48123456789"
+              href="tel:+48576222699"
               className={`flex items-center gap-2 text-sm font-medium transition-colors hover:text-primary ${
                 isScrolled ? "text-foreground" : "text-secondary-foreground"
               }`}
             >
               <Phone className="w-4 h-4" />
-              +48 123 456 789
+              +48 576 222 699
             </a>
             <Button variant="cta" size="default" asChild>
               <a href="#kontakt">{t("nav.freeQuote")}</a>

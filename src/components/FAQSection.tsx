@@ -14,7 +14,7 @@ export const FAQSection = () => {
       questionKey: "faq.items.order.question",
       answerKey: "faq.items.order.answer",
       fallbackQ: "Jak zamówić usługę sprzątania?",
-      fallbackA: "Wystarczy zadzwonić pod numer +48 123 456 789 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę.",
+      fallbackA: "Wystarczy zadzwonić pod numer +48 576 222 699 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę.",
     },
     {
       questionKey: "faq.items.quote.question",
@@ -83,10 +83,10 @@ export const FAQSection = () => {
                 {t("faq.contactUs", "Skontaktuj się z nami telefonicznie lub mailowo. Chętnie odpowiemy na wszystkie Twoje pytania.")}
               </p>
               <a
-                href="tel:+48123456789"
+                href="tel:+48576222699"
                 className="text-primary font-semibold hover:underline"
               >
-                +48 123 456 789
+                +48 576 222 699
               </a>
             </div>
           </div>
