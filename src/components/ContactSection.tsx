@@ -5,12 +5,20 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "react-i18next";
+import { supabase } from "@/integrations/supabase/client";
 
 export const ContactSection = () => {
   const { toast } = useToast();
   const { t } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    service_type: "",
+    message: "",
+  });
 
   const contactInfo = [
     {
@@ -39,18 +47,37 @@ export const ContactSection = () => {
     },
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    setTimeout(() => {
-      setIsSubmitting(false);
+
+    try {
+      const { error } = await supabase.from("leads").insert({
+        name: formData.name,
+        email: formData.email || "brak@email.pl",
+        phone: formData.phone || null,
+        service_type: formData.service_type || null,
+        message: formData.message || "Zapytanie z formularza kontaktowego",
+      });
+
+      if (error) throw error;
+
       setIsSubmitted(true);
       toast({
         title: t("contact.form.success"),
         description: t("contact.form.successDescription"),
       });
-    }, 1500);
+      setFormData({ name: "", phone: "", email: "", service_type: "", message: "" });
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: "Błąd",
+        description: "Nie udało się wysłać wiadomości. Spróbuj ponownie.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -133,7 +160,7 @@ export const ContactSection = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-4">
+                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         {t("contact.form.name")} *
@@ -143,6 +170,8 @@ export const ContactSection = () => {
                         placeholder={t("contact.form.namePlaceholder")}
                         required
                         className="h-12"
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       />
                     </div>
                     <div>
@@ -154,6 +183,8 @@ export const ContactSection = () => {
                         placeholder={t("contact.form.phonePlaceholder")}
                         required
                         className="h-12"
+                        value={formData.phone}
+                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       />
                     </div>
                   </div>
@@ -166,6 +197,8 @@ export const ContactSection = () => {
                       type="email"
                       placeholder={t("contact.form.emailPlaceholder")}
                       className="h-12"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     />
                   </div>
 
@@ -173,7 +206,11 @@ export const ContactSection = () => {
                     <label className="block text-sm font-medium text-foreground mb-2">
                       {t("contact.form.service")}
                     </label>
-                    <select className="w-full h-12 rounded-lg border border-input bg-background px-3 text-foreground">
+                    <select 
+                      className="w-full h-12 rounded-lg border border-input bg-background px-3 text-foreground"
+                      value={formData.service_type}
+                      onChange={(e) => setFormData({ ...formData, service_type: e.target.value })}
+                    >
                       <option value="">{t("contact.form.servicePlaceholder")}</option>
                       <option value="biuro">{t("contact.services.office")}</option>
                       <option value="mieszkanie">{t("contact.services.apartment")}</option>
@@ -192,6 +229,8 @@ export const ContactSection = () => {
                     <Textarea
                       placeholder={t("contact.form.messagePlaceholder")}
                       rows={4}
+                      value={formData.message}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     />
                   </div>
 
