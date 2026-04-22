@@ -19,7 +19,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Profesjonalne Sprzątanie Biur i Mieszkań | Dom Blasku</title>
+        <title>Profesjonalne Sprzątanie Biur | Dom Blasku</title>
         <meta 
           name="description" 
           content="Profesjonalne usługi sprzątania biur, mieszkań i biurowców. Bezpłatna wycena w 24h. Ekologiczne środki, doświadczony zespół. Zadzwoń!" 
