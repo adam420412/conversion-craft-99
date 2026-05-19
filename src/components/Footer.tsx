@@ -54,10 +54,7 @@ export const Footer = () => {
                 <Mail className="w-4 h-4" />
                 kontakt@domblasku.pl
               </a>
-              <a href="https://www.domblasku.pl" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-primary transition-colors">
-                <MapPin className="w-4 h-4" />
-                www.domblasku.pl
-              </a>
+              <div className="flex items-center gap-3"><MapPin className="w-4 h-4" />Mikołaja Reja 20, 80-404 Gdańsk</div>
             </div>
           </div>
 
