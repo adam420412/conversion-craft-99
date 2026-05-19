@@ -36,7 +36,7 @@ export const ContactSection = () => {
     {
       icon: MapPin,
       labelKey: "contact.address",
-      value: "www.domblasku.pl",
+      value: "Mikołaja Reja 20, 80-404 Gdańsk",
       href: "#",
     },
     {
@@ -128,7 +128,7 @@ export const ContactSection = () => {
             {/* Google Maps */}
             <div className="h-64 rounded-xl overflow-hidden border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.3913185268424!2d21.00732731580091!3d52.23194506437542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xc2e97ae5311f2dc2!2sWarsaw%2C%20Poland!5e0!3m2!1sen!2sus!4v1704067200000!5m2!1sen!2sus"
+                src="https://maps.google.com/maps?q=Miko%C5%82aja+Reja+20%2C+80-404+Gda%C5%84sk&output=embed&hl=pl"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
