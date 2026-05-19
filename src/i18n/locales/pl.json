@@ -1,596 +1,704 @@
 {
-  "nav": {
-    "services": "Usługi sprzątania",
-    "pricing": "Cennik",
-    "calculator": "Kalkulator",
-    "portfolio": "Realizacje",
-    "testimonials": "Opinie klientów",
-    "faq": "FAQ",
-    "contact": "Kontakt",
-    "freeQuote": "Bezpłatna wycena"
-  },
-  "hero": {
-    "badge": "Profesjonalne usługi sprzątania",
-    "title": "Profesjonalne sprzątanie biur i mieszkań",
-    "titleHighlight": "w Twojej okolicy",
-    "description": "Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. Gwarantujemy perfekcyjne efekty i elastyczne terminy.",
-    "cta": "Zamów bezpłatną wycenę",
-    "ctaSecondary": "Zobacz nasze usługi",
-    "imageAlt": "Profesjonalny zespół sprzątający Dom Blasku",
-    "benefits": {
-      "freeQuote": "Bezpłatna wycena w 24h",
-      "eco": "Ekologiczne środki czystości",
-      "qualified": "Wykwalifikowany personel"
-    },
-    "stats": {
-      "clients": "Zadowolonych klientów",
-      "experience": "lat",
-      "experienceLabel": "Doświadczenia",
-      "quality": "Gwarancja jakości"
-    }
-  },
-  "whyUs": {
-    "badge": "Dlaczego my",
-    "title": "Zaufaj profesjonalistom od sprzątania",
-    "description": "Od ponad 8 lat dbamy o czystość biur, mieszkań i lokali użytkowych. Poznaj powody, dla których klienci nam ufają.",
-    "reasons": {
-      "guarantee": {
-        "title": "Gwarancja jakości",
-        "description": "Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów."
-      },
-      "punctuality": {
-        "title": "Punktualność",
-        "description": "Szanujemy Twój czas. Zawsze przyjeżdżamy o ustalonej godzinie."
-      },
-      "eco": {
-        "title": "Ekologiczne środki",
-        "description": "Używamy certyfikowanych środków bezpiecznych dla ludzi i środowiska."
-      },
-      "experience": {
-        "title": "Doświadczony zespół",
-        "description": "Nasi pracownicy są przeszkoleni i posiadają wieloletnie doświadczenie."
-      },
-      "individual": {
-        "title": "Indywidualne podejście",
-        "description": "Dostosowujemy usługi do Twoich potrzeb i preferencji."
-      },
-      "support": {
-        "title": "Wsparcie 24/7",
-        "description": "Jesteśmy dostępni, gdy nas potrzebujesz. Zadzwoń o każdej porze."
-      }
-    }
-  },
-  "benefits": {
-    "badge": "Korzyści dla Ciebie",
-    "title": "Co zyskujesz wybierając nasze usługi sprzątania?",
-    "included": "W cenie każdej usługi:",
-    "features": {
-      "flexible": "Elastyczne terminy sprzątania",
-      "equipment": "Własny sprzęt i środki czystości",
-      "insurance": "Ubezpieczenie od szkód",
-      "team": "Stała ekipa sprzątająca",
-      "invoice": "Faktura VAT",
-      "nohidden": "Brak ukrytych kosztów"
-    },
-    "items": {
-      "productivity": {
-        "title": "Zwiększona produktywność",
-        "description": "Czyste biuro to efektywni pracownicy. Badania pokazują, że czystość wpływa na koncentrację i motywację."
-      },
-      "health": {
-        "title": "Zdrowe środowisko",
-        "description": "Regularne sprzątanie eliminuje alergeny, kurz i bakterie, dbając o zdrowie Twoje i Twoich bliskich."
-      },
-      "time": {
-        "title": "Oszczędność czasu",
-        "description": "Skup się na tym, co ważne. My zajmiemy się sprzątaniem, a Ty zyskasz cenny czas dla siebie."
-      }
-    },
-    "guarantee": {
-      "title": "Gwarancja satysfakcji:",
-      "description": "Jeśli nie będziesz zadowolony z naszych usług, wrócimy i poprawimy bez dodatkowych opłat."
-    }
-  },
-  "services": {
-    "badge": "Nasze usługi",
-    "title": "Profesjonalne usługi sprzątania dla firm i osób prywatnych",
-    "description": "Oferujemy szeroki zakres usług sprzątających dostosowanych do Twoich potrzeb. Każdą usługę wykonujemy z najwyższą starannością.",
-    "viewDetails": "Zobacz szczegóły",
-    "office": {
-      "title": "Sprzątanie biur",
-      "description": "Kompleksowe utrzymanie czystości w biurach i przestrzeniach coworkingowych.",
-      "features": {
-        "daily": "Codzienne sprzątanie",
-        "windows": "Mycie okien",
-        "disinfection": "Dezynfekcja powierzchni"
-      }
-    },
-    "apartment": {
-      "title": "Sprzątanie mieszkań",
-      "description": "Regularne i jednorazowe sprzątanie mieszkań oraz domów jednorodzinnych.",
-      "features": {
-        "general": "Sprzątanie generalne",
-        "renovation": "Sprzątanie po remoncie",
-        "windows": "Mycie okien"
-      }
-    },
-    "building": {
-      "title": "Sprzątanie biurowców",
-      "description": "Profesjonalna obsługa dużych obiektów biurowych i kompleksów biznesowych.",
-      "features": {
-        "24h": "Obsługa całodobowa",
-        "day": "Serwis dzienny",
-        "common": "Sprzątanie części wspólnych"
-      }
-    },
-    "renovation": {
-      "title": "Sprzątanie po remoncie",
-      "description": "Dokładne usunięcie pyłu, brudu i resztek materiałów budowlanych.",
-      "features": {
-        "windows": "Mycie okien",
-        "floors": "Czyszczenie podłóg",
-        "glue": "Usuwanie kleju i farby"
-      }
-    },
-    "hotel": {
-      "title": "Sprzątanie hoteli",
-      "description": "Kompleksowa obsługa obiektów hotelowych i apartamentów na wynajem.",
-      "features": {
-        "rooms": "Sprzątanie pokoi",
-        "bedding": "Wymiana pościeli",
-        "laundry": "Pranie i prasowanie"
-      }
-    },
-    "industrial": {
-      "title": "Sprzątanie hal i magazynów",
-      "description": "Utrzymanie czystości w halach produkcyjnych i magazynowych.",
-      "features": {
-        "floors": "Czyszczenie posadzek",
-        "machines": "Mycie maszyn",
-        "waste": "Utylizacja odpadów"
-      }
-    }
-  },
-  "process": {
-    "badge": "Jak działamy",
-    "title": "Prosty proces współpracy",
-    "description": "Współpraca z nami jest prosta i przejrzysta. Oto jak wygląda cały proces od pierwszego kontaktu do realizacji usługi.",
-    "steps": {
-      "contact": {
-        "title": "Kontakt",
-        "description": "Zadzwoń lub wypełnij formularz. Odpowiemy w ciągu 24 godzin."
-      },
-      "quote": {
-        "title": "Bezpłatna wycena",
-        "description": "Przyjedziemy i ocenimy zakres prac. Przedstawimy szczegółową ofertę."
-      },
-      "schedule": {
-        "title": "Ustalenie terminu",
-        "description": "Wspólnie wybierzemy dogodny termin realizacji usługi."
-      },
-      "execution": {
-        "title": "Realizacja",
-        "description": "Nasz zespół wykonuje usługę zgodnie z ustaleniami."
-      },
-      "completion": {
-        "title": "Odbiór i rozliczenie",
-        "description": "Sprawdzasz efekty, a my wystawiamy fakturę. Gotowe!"
-      }
-    }
-  },
-  "calculator": {
-    "badge": "Kalkulator cen",
-    "title": "Oblicz orientacyjny koszt sprzątania",
-    "description": "Wybierz rodzaj usługi, powierzchnię i częstotliwość, a my obliczymy dla Ciebie przybliżoną cenę.",
-    "serviceType": "Wybierz rodzaj usługi",
-    "area": "Powierzchnia",
-    "frequency": "Częstotliwość sprzątania",
-    "estimatedPrice": "Orientacyjna cena",
-    "perVisit": "za każdą wizytę",
-    "perService": "za jednorazową usługę",
-    "orderQuote": "Zamów wycenę",
-    "reset": "Resetuj kalkulator",
-    "note": "* Dokładna cena może się różnić w zależności od zakresu prac",
-    "savings": "Oszczędzasz {{discount}}% wybierając regularne sprzątanie",
-    "services": {
-      "apartment": "Sprzątanie mieszkania",
-      "office": "Sprzątanie biura",
-      "building": "Sprzątanie biurowca",
-      "renovation": "Sprzątanie po remoncie"
-    },
-    "frequencies": {
-      "once": "Jednorazowo",
-      "weekly": "Co tydzień",
-      "biweekly": "Co 2 tygodnie",
-      "monthly": "Co miesiąc"
-    }
-  },
-  "pricing": {
-    "badge": "Cennik usług sprzątania",
-    "title": "Transparentne ceny, brak ukrytych kosztów",
-    "description": "Wybierz pakiet dopasowany do Twoich potrzeb. Każda wycena jest indywidualna i zależy od powierzchni oraz zakresu prac.",
-    "popular": "Najpopularniejszy",
-    "orderQuote": "Zamów wycenę",
-    "note": "* Podane ceny są orientacyjne. Dokładna wycena zależy od powierzchni, zakresu prac i lokalizacji. Skontaktuj się z nami po bezpłatną wycenę.",
-    "plans": {
-      "oneTime": {
-        "name": "Sprzątanie jednorazowe",
-        "description": "Idealne na specjalne okazje lub jako próba naszych usług",
-        "price": "od 150 zł",
-        "unit": "za usługę",
-        "features": [
-          "Sprzątanie wszystkich pomieszczeń",
-          "Mycie łazienek i kuchni",
-          "Odkurzanie i mycie podłóg",
-          "Usuwanie kurzu",
-          "Opróżnianie koszy"
-        ]
-      },
-      "regular": {
-        "name": "Sprzątanie regularne",
-        "description": "Najlepsza opcja dla utrzymania stałej czystości",
-        "price": "od 120 zł",
-        "unit": "za wizytę",
-        "features": [
-          "Wszystko z pakietu jednorazowego",
-          "Stała ekipa sprzątająca",
-          "Elastyczne terminy",
-          "10% zniżki na wszystkie usługi",
-          "Priorytetowe terminy",
-          "Dedykowany opiekun klienta"
-        ]
-      },
-      "office": {
-        "name": "Sprzątanie biur",
-        "description": "Kompleksowa obsługa przestrzeni biurowych",
-        "price": "Wycena indywidualna",
-        "unit": "za miesiąc",
-        "features": [
-          "Codzienne sprzątanie",
-          "Serwis dzienny",
-          "Dezynfekcja powierzchni",
-          "Elastyczne godziny pracy",
-          "Stała ekipa sprzątająca",
-          "Dedykowany opiekun klienta"
-        ]
-      }
-    }
-  },
-  "portfolio": {
-    "badge": "Nasze realizacje",
-    "title": "Zaufali nam klienci z różnych branż",
-    "description": "Zobacz przykłady naszych realizacji. Obsługujemy zarówno duże firmy, jak i klientów indywidualnych.",
-    "viewService": "Zobacz usługę",
-    "becomeClient": "Zostań naszym klientem",
-    "comingSoon": "Zdjęcia z realizacji",
-    "placeholder": "Miejsce na zdjęcie z realizacji"
-  },
-  "testimonials": {
-    "badge": "Opinie klientów",
-    "title": "Co mówią o nas klienci",
-    "description": "Zaufało nam ponad 500 klientów. Poznaj ich opinie i przekonaj się, dlaczego warto wybrać nasze usługi sprzątania.",
-    "join": "Dołącz do 500+ zadowolonych klientów",
-    "items": {
-      "anna": {
-        "name": "Anna Kowalska",
-        "role": "Właścicielka mieszkania",
-        "content": "Korzystam z usług Dom Blasku od roku. Fantastyczna jakość i punktualność. Polecam każdemu!"
-      },
-      "marek": {
-        "name": "Marek Nowak",
-        "role": "Dyrektor operacyjny, TechCorp",
-        "content": "Współpracujemy z Dom Blasku przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie."
-      },
-      "katarzyna": {
-        "name": "Katarzyna Wiśniewska",
-        "role": "Manager hotelu",
-        "content": "Niezawodni i elastyczni. Reagują na każdą potrzebę. Goście chwalą czystość pokoi."
-      },
-      "piotr": {
-        "name": "Piotr Zieliński",
-        "role": "Właściciel firmy",
-        "content": "Po kilku próbach z innymi firmami, w końcu znalazłem Dom Blasku. Jakość i cena idealne."
-      }
-    }
-  },
-  "blog": {
-    "badge": "Blog i porady",
-    "title": "Wiedza i inspiracje",
-    "description": "Porady ekspertów, case studies i trendy w branży sprzątania",
-    "readMore": "Czytaj więcej",
-    "viewAll": "Zobacz wszystkie artykuły"
-  },
-  "faq": {
-    "badge": "Pytania i odpowiedzi",
-    "title": "Najczęściej zadawane pytania o sprzątanie",
-    "description": "Znajdź odpowiedzi na najczęstsze pytania dotyczące naszych usług sprzątania. Jeśli nie znajdziesz odpowiedzi, skontaktuj się z nami.",
-    "otherQuestion": "Masz inne pytanie?",
-    "contactUs": "Skontaktuj się z nami telefonicznie lub mailowo. Chętnie odpowiemy na wszystkie Twoje pytania.",
-    "items": {
-      "order": {
-        "question": "Jak zamówić usługę sprzątania?",
-        "answer": "Wystarczy zadzwonić pod numer +48 576 222 699 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę."
-      },
-      "quote": {
-        "question": "Czy wycena jest bezpłatna?",
-        "answer": "Tak, wycena jest całkowicie bezpłatna i niezobowiązująca. Przyjedziemy, ocenimy zakres prac i przedstawimy szczegółową ofertę cenową."
-      },
-      "products": {
-        "question": "Jakie środki czystości stosujecie?",
-        "answer": "Używamy wyłącznie certyfikowanych, ekologicznych środków czystości, które są bezpieczne dla ludzi, zwierząt i środowiska. Na życzenie możemy również używać środków dostarczonych przez klienta."
-      },
-      "equipment": {
-        "question": "Czy macie własny sprzęt?",
-        "answer": "Tak, przyjeżdżamy z pełnym wyposażeniem - profesjonalne odkurzacze, mopy, środki czystości i wszystkie niezbędne akcesoria. Klient nie musi niczego zapewniać."
-      },
-      "hours": {
-        "question": "Czy możecie sprzątać wieczorami lub w weekendy?",
-        "answer": "Oczywiście! Dostosowujemy się do potrzeb klienta. Sprzątamy w godzinach porannych, wieczornych, a także w weekendy i święta (bez dodatkowych opłat)."
-      },
-      "satisfaction": {
-        "question": "Co jeśli nie będę zadowolony z usługi?",
-        "answer": "Oferujemy gwarancję satysfakcji. Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów w ciągu 24 godzin od zgłoszenia."
-      },
-      "invoice": {
-        "question": "Czy wystawiacie faktury VAT?",
-        "answer": "Tak, jesteśmy zarejestrowanym płatnikiem VAT i wystawiamy faktury dla firm oraz rachunki dla osób prywatnych."
-      },
-      "insurance": {
-        "question": "Czy macie ubezpieczenie?",
-        "answer": "Tak, posiadamy pełne ubezpieczenie OC, które chroni zarówno nas, jak i naszych klientów na wypadek ewentualnych szkód podczas wykonywania usługi."
-      }
-    }
-  },
-  "cta": {
-    "title": "Gotowy na profesjonalne sprzątanie?",
-    "description": "Zamów bezpłatną wycenę już dziś i przekonaj się, jak możemy pomóc w utrzymaniu czystości Twojego biura lub mieszkania.",
-    "button": "Zamów bezpłatną wycenę",
-    "phone": "Zadzwoń teraz",
-    "trust": "Ponad 500 zadowolonych klientów • Gwarancja jakości • Bezpłatna wycena"
-  },
-  "contact": {
-    "badge": "Kontakt",
-    "title": "Zamów bezpłatną wycenę sprzątania",
-    "description": "Wypełnij formularz lub zadzwoń. Odpowiemy w ciągu 24 godzin i przedstawimy szczegółową ofertę.",
-    "contactData": "Dane kontaktowe",
-    "phone": "Telefon",
-    "email": "Email",
-    "address": "Adres",
-    "hours": "Godziny pracy",
-    "mapTitle": "Lokalizacja Dom Blasku na mapie",
-    "form": {
-      "name": "Imię i nazwisko",
-      "namePlaceholder": "Jan Kowalski",
-      "phone": "Telefon",
-      "phonePlaceholder": "+48 123 456 789",
-      "email": "Email",
-      "emailPlaceholder": "jan@przykład.pl",
-      "service": "Rodzaj usługi",
-      "servicePlaceholder": "Wybierz usługę",
-      "message": "Wiadomość",
-      "messagePlaceholder": "Opisz swoje potrzeby, podaj przybliżoną powierzchnię, częstotliwość sprzątania...",
-      "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu odpowiedzi na zapytanie.",
-      "submit": "Wyślij zapytanie",
-      "sending": "Wysyłanie...",
-      "success": "Dziękujemy za wiadomość!",
-      "successDescription": "Skontaktujemy się z Tobą w ciągu 24 godzin.",
-      "sendAnother": "Wyślij kolejne zapytanie"
-    },
-    "services": {
-      "office": "Sprzątanie biura",
-      "apartment": "Sprzątanie mieszkania",
-      "building": "Sprzątanie biurowca",
-      "renovation": "Sprzątanie po remoncie",
-      "hotel": "Sprzątanie hotelu",
-      "industrial": "Sprzątanie hal i magazynów",
-      "other": "Inne"
-    }
-  },
-  "footer": {
-    "description": "Profesjonalne usługi sprzątania dla firm i osób prywatnych. Zaufaj ekspertom od czystości.",
-    "services": "Usługi sprzątania",
-    "company": "Firma",
-    "help": "Pomoc",
-    "aboutUs": "O nas",
-    "career": "Kariera",
-    "privacyPolicy": "Polityka prywatności",
-    "terms": "Regulamin",
-    "rights": "Wszystkie prawa zastrzeżone."
-  },
-  "servicePage": {
-    "backToServices": "Wróć do wszystkich usług",
-    "cleaningServices": "Usługi sprzątania",
-    "orderFreeQuote": "Zamów bezpłatną wycenę",
-    "benefitsTitle": "Korzyści dla Ciebie",
-    "qualityGuarantee": "Gwarancja jakości",
-    "punctuality": "Punktualność",
-    "ecoProducts": "Eko środki",
-    "experiencedTeam": "Doświadczony zespół",
-    "serviceIncludes": "Co obejmuje usługa?",
-    "cooperationProcess": "Jak wygląda współpraca?",
-    "serviceNotFound": "Usługa nie znaleziona",
-    "backToHome": "Wróć do strony głównej",
-    "services": {
-      "sprzatanie-biur": {
-        "title": "Sprzątanie Biur",
-        "metaTitle": "Profesjonalne Sprzątanie Biur | Dom Blasku",
-        "metaDescription": "Kompleksowe usługi sprzątania biur. Codzienne sprzątanie, dezynfekcja, mycie okien. Bezpłatna wycena. Zadzwoń!",
-        "heroDescription": "Zapewniamy profesjonalne i regularne sprzątanie biur, które gwarantuje czyste i higieniczne środowisko pracy dla Twoich pracowników.",
-        "pricing": "od 6 zł/m²",
-        "benefits": [
-          "Zwiększona produktywność pracowników",
-          "Pozytywne pierwsze wrażenie dla klientów",
-          "Mniej dni chorobowych w zespole",
-          "Dłuższa żywotność mebli i wyposażenia",
-          "Elastyczne godziny sprzątania",
-          "Stała, zaufana ekipa sprzątająca"
-        ],
-        "features": [
-          { "title": "Codzienne sprzątanie", "description": "Odkurzanie, mycie podłóg, opróżnianie koszy, wycieranie biurek i powierzchni." },
-          { "title": "Dezynfekcja powierzchni", "description": "Regularna dezynfekcja klamek, włączników, telefonów i wspólnych powierzchni." },
-          { "title": "Sprzątanie kuchni biurowej", "description": "Mycie naczyń, czyszczenie lodówek, ekspresów do kawy i mikrofalówek." },
-          { "title": "Mycie okien", "description": "Regularne mycie okien wewnątrz i na zewnątrz budynku." },
-          { "title": "Serwis dzienny", "description": "Uzupełnianie mydła, papieru toaletowego i ręczników w ciągu dnia." },
-          { "title": "Pranie wykładzin", "description": "Okresowe głębokie czyszczenie wykładzin i tapicerek." }
-        ],
-        "process": [
-          "Bezpłatna wizyta i ocena potrzeb",
-          "Przygotowanie indywidualnej oferty",
-          "Ustalenie harmonogramu sprzątania",
-          "Przydzielenie stałej ekipy",
-          "Regularne kontrole jakości"
-        ]
-      },
-      "sprzatanie-mieszkan": {
-        "title": "Sprzątanie Mieszkań",
-        "metaTitle": "Profesjonalne Sprzątanie Mieszkań | Dom Blasku",
-        "metaDescription": "Sprzątanie mieszkań i domów. Jednorazowe i regularne usługi. Ekologiczne środki, elastyczne terminy. Zamów teraz!",
-        "heroDescription": "Oddaj nam sprzątanie, a Ty ciesz się czasem z rodziną. Zapewniamy kompleksowe sprzątanie mieszkań z dbałością o każdy detal.",
-        "pricing": "od 8 zł/m²",
-        "benefits": [
-          "Więcej czasu dla siebie i rodziny",
-          "Czyste i higieniczne mieszkanie",
-          "Ekologiczne środki bezpieczne dla dzieci i zwierząt",
-          "Elastyczne terminy dopasowane do Ciebie",
-          "Stała, zaufana osoba sprzątająca",
-          "Gwarancja satysfakcji"
-        ],
-        "features": [
-          { "title": "Kompleksowe sprzątanie", "description": "Odkurzanie, mycie podłóg, wycieranie kurzu ze wszystkich powierzchni." },
-          { "title": "Łazienka i kuchnia", "description": "Dokładne czyszczenie i dezynfekcja łazienki, mycie kuchni i sprzętów." },
-          { "title": "Mycie okien", "description": "Mycie okien, parapetów i ram okiennych." },
-          { "title": "Prasowanie", "description": "Na życzenie prasowanie ubrań i pościeli." },
-          { "title": "Zmiana pościeli", "description": "Zmiana pościeli i ścielenie łóżek." },
-          { "title": "Sprzątanie po imprezie", "description": "Ekspresowe sprzątanie po przyjęciach i imprezach." }
-        ],
-        "process": [
-          "Kontakt telefoniczny lub przez formularz",
-          "Ustalenie zakresu prac i terminu",
-          "Sprzątanie w umówionym czasie",
-          "Kontrola jakości przed wyjściem",
-          "Rozliczenie i faktura"
-        ]
-      },
-      "sprzatanie-biurowcow": {
-        "title": "Sprzątanie Biurowców",
-        "metaTitle": "Sprzątanie Biurowców i Kompleksów Biurowych | Dom Blasku",
-        "metaDescription": "Profesjonalna obsługa dużych obiektów biurowych. Serwis 24/7, stałe ekipy, kompleksowe sprzątanie. Bezpłatna wycena!",
-        "heroDescription": "Specjalizujemy się w kompleksowej obsłudze dużych obiektów biurowych i kompleksów biznesowych. Zapewniamy serwis na najwyższym poziomie.",
-        "pricing": "wycena indywidualna",
-        "benefits": [
-          "Obsługa całodobowa 24/7",
-          "Dedykowany manager obiektu",
-          "Stałe, przeszkolone ekipy",
-          "Raportowanie i kontrola jakości",
-          "Szybka reakcja na zgłoszenia",
-          "Kompleksowa obsługa facility"
-        ],
-        "features": [
-          { "title": "Serwis dzienny", "description": "Ciągła obsługa w godzinach pracy biurowca - uzupełnianie, sprzątanie, reagowanie." },
-          { "title": "Sprzątanie nocne", "description": "Kompleksowe sprzątanie po godzinach pracy bez zakłócania funkcjonowania." },
-          { "title": "Części wspólne", "description": "Utrzymanie czystości recepcji, korytarzy, wind i klatek schodowych." },
-          { "title": "Mycie fasad i okien", "description": "Profesjonalne mycie okien i fasad z wykorzystaniem specjalistycznego sprzętu." },
-          { "title": "Pielęgnacja terenów zielonych", "description": "Podlewanie roślin, pielęgnacja zieleni wewnątrz budynku." },
-          { "title": "Obsługa eventów", "description": "Sprzątanie przed i po wydarzeniach firmowych w budynku." }
-        ],
-        "process": [
-          "Audyt obiektu i analiza potrzeb",
-          "Przygotowanie kompleksowej oferty",
-          "Negocjacja i podpisanie umowy",
-          "Wdrożenie zespołu i procedur",
-          "Regularne audyty jakości"
-        ]
-      },
-      "sprzatanie-po-remoncie": {
-        "title": "Sprzątanie po Remoncie",
-        "metaTitle": "Sprzątanie po Remoncie i Budowie | Dom Blasku",
-        "metaDescription": "Profesjonalne sprzątanie po remoncie, budowie i wykończeniach. Usuwanie pyłu, kleju, farby. Szybko i dokładnie. Zadzwoń!",
-        "heroDescription": "Remont to dopiero połowa sukcesu. Pozwól nam dokończyć dzieło - usuniemy pył, brud i pozostałości po pracach budowlanych.",
-        "pricing": "od 15 zł/m²",
-        "benefits": [
-          "Dokładne usunięcie pyłu budowlanego",
-          "Usuwanie resztek kleju i farby",
-          "Mycie okien po remoncie",
-          "Profesjonalny sprzęt i środki",
-          "Szybka realizacja",
-          "Gotowe do zamieszkania"
-        ],
-        "features": [
-          { "title": "Usuwanie pyłu", "description": "Dokładne odpylanie wszystkich powierzchni, szczelin i trudno dostępnych miejsc." },
-          { "title": "Mycie okien", "description": "Usuwanie folii ochronnych, mycie szyb, ram i parapetów." },
-          { "title": "Czyszczenie podłóg", "description": "Mycie i polerowanie podłóg, usuwanie resztek zaprawy i kleju." },
-          { "title": "Dezynfekcja łazienki", "description": "Dokładne czyszczenie i dezynfekcja nowej łazienki." },
-          { "title": "Usuwanie zabrudzeń", "description": "Usuwanie plam farby, kleju, silikonu z różnych powierzchni." },
-          { "title": "Wywóz odpadów", "description": "Usuwanie resztek materiałów budowlanych i opakowań." }
-        ],
-        "process": [
-          "Ocena zakresu prac po remoncie",
-          "Wycena na podstawie powierzchni i stanu",
-          "Ustalenie terminu realizacji",
-          "Kompleksowe sprzątanie",
-          "Odbiór i kontrola jakości"
-        ]
-      },
-      "sprzatanie-hoteli": {
-        "title": "Sprzątanie Hoteli",
-        "metaTitle": "Profesjonalne Sprzątanie Hoteli i Apartamentów | Dom Blasku",
-        "metaDescription": "Kompleksowa obsługa hoteli i apartamentów na wynajem. Sprzątanie pokoi, wymiana pościeli, pranie. Zadzwoń po ofertę!",
-        "heroDescription": "Zapewniamy kompleksową obsługę obiektów hotelowych i apartamentów na wynajem krótkookresowy. Twoi goście zasługują na perfekcyjną czystość.",
-        "pricing": "wycena indywidualna",
-        "benefits": [
-          "Doświadczenie w branży hotelowej",
-          "Elastyczne godziny pracy",
-          "Szybkie turnover pokoi",
-          "Wysokie standardy higieny",
-          "Pranie i prasowanie w cenie",
-          "Dedykowany koordynator"
-        ],
-        "features": [
-          { "title": "Sprzątanie pokoi", "description": "Kompleksowe sprzątanie pokoi hotelowych zgodnie z procedurami." },
-          { "title": "Wymiana pościeli", "description": "Profesjonalna wymiana i ścielenie pościeli hotelowej." },
-          { "title": "Pranie i prasowanie", "description": "Pranie pościeli, ręczników i prasowanie w naszej pralni." },
-          { "title": "Uzupełnianie amenities", "description": "Uzupełnianie kosmetyków, herbat, kawy i materiałów informacyjnych." },
-          { "title": "Części wspólne", "description": "Utrzymanie czystości recepcji, korytarzy i restauracji." },
-          { "title": "Sprzątanie ekspresowe", "description": "Szybki turnover pokoju między gośćmi." }
-        ],
-        "process": [
-          "Analiza potrzeb hotelu",
-          "Dostosowanie procedur do standardów",
-          "Szkolenie dedykowanej ekipy",
-          "Wdrożenie systemu jakości",
-          "Regularne audyty i raporty"
-        ]
-      },
-      "sprzatanie-hal": {
-        "title": "Sprzątanie Hal i Magazynów",
-        "metaTitle": "Sprzątanie Hal Produkcyjnych i Magazynów | Dom Blasku",
-        "metaDescription": "Profesjonalne sprzątanie hal produkcyjnych, magazynów i zakładów. Czyszczenie posadzek, mycie maszyn. Bezpłatna wycena!",
-        "heroDescription": "Specjalizujemy się w utrzymaniu czystości w halach produkcyjnych, magazynach i zakładach przemysłowych. Bezpieczeństwo i czystość to nasz priorytet.",
-        "pricing": "od 4.5 zł/m²",
-        "benefits": [
-          "Doświadczenie w przemyśle",
-          "Praca w systemie zmianowym",
-          "Profesjonalny sprzęt przemysłowy",
-          "Zgodność z przepisami BHP",
-          "Utylizacja odpadów",
-          "Elastyczne terminy"
-        ],
-        "features": [
-          { "title": "Czyszczenie posadzek", "description": "Mechaniczne mycie i polerowanie posadzek przemysłowych." },
-          { "title": "Mycie maszyn", "description": "Czyszczenie maszyn i urządzeń produkcyjnych." },
-          { "title": "Sprzątanie regałów", "description": "Odpylanie i czyszczenie regałów magazynowych." },
-          { "title": "Utylizacja odpadów", "description": "Segregacja i utylizacja odpadów przemysłowych." },
-          { "title": "Mycie okien i świetlików", "description": "Czyszczenie przeszkleń na wysokościach." },
-          { "title": "Dezynfekcja", "description": "Dezynfekcja pomieszczeń socjalnych i sanitarnych." }
-        ],
-        "process": [
-          "Wizja lokalna i ocena ryzyka",
-          "Przygotowanie planu sprzątania",
-          "Szkolenie BHP ekipy",
-          "Realizacja zgodnie z procedurami",
-          "Raportowanie i kontrola"
-        ]
-      }
-    }
-  }
+    "nav":  {
+                "services":  "Usługi sprzątania",
+                "pricing":  "Cennik",
+                "calculator":  "Kalkulator",
+                "portfolio":  "Realizacje",
+                "testimonials":  "Opinie klientów",
+                "faq":  "FAQ",
+                "contact":  "Kontakt",
+                "freeQuote":  "Bezpłatna wycena"
+            },
+    "hero":  {
+                 "badge":  "Profesjonalne usługi sprzątania",
+                 "title":  "Profesjonalne sprzątanie biur i mieszkań",
+                 "titleHighlight":  "w Twojej okolicy",
+                 "description":  "Zaufaj ekspertom od czystości. Kompleksowe usługi sprzątania dla firm i klientów indywidualnych. Gwarantujemy perfekcyjne efekty i elastyczne terminy.",
+                 "cta":  "Zamów bezpłatną wycenę",
+                 "ctaSecondary":  "Zobacz nasze usługi",
+                 "imageAlt":  "Profesjonalny zespół sprzątający Dom Blasku",
+                 "benefits":  {
+                                  "freeQuote":  "Bezpłatna wycena w 24h",
+                                  "eco":  "Ekologiczne środki czystości",
+                                  "qualified":  "Wykwalifikowany personel"
+                              },
+                 "stats":  {
+                               "clients":  "Zadowolonych klientów",
+                               "experience":  "lat",
+                               "experienceLabel":  "Doświadczenia",
+                               "quality":  "Gwarancja jakości"
+                           }
+             },
+    "whyUs":  {
+                  "badge":  "Dlaczego my",
+                  "title":  "Zaufaj profesjonalistom od sprzątania",
+                  "description":  "Od ponad 8 lat dbamy o czystość biur, mieszkań i lokali użytkowych. Poznaj powody, dla których klienci nam ufają.",
+                  "reasons":  {
+                                  "guarantee":  {
+                                                    "title":  "Gwarancja jakości",
+                                                    "description":  "Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów."
+                                                },
+                                  "punctuality":  {
+                                                      "title":  "Punktualność",
+                                                      "description":  "Szanujemy Twój czas. Zawsze przyjeżdżamy o ustalonej godzinie."
+                                                  },
+                                  "eco":  {
+                                              "title":  "Ekologiczne środki",
+                                              "description":  "Używamy certyfikowanych środków bezpiecznych dla ludzi i środowiska."
+                                          },
+                                  "experience":  {
+                                                     "title":  "Doświadczony zespół",
+                                                     "description":  "Nasi pracownicy są przeszkoleni i posiadają wieloletnie doświadczenie."
+                                                 },
+                                  "individual":  {
+                                                     "title":  "Indywidualne podejście",
+                                                     "description":  "Dostosowujemy usługi do Twoich potrzeb i preferencji."
+                                                 },
+                                  "support":  {
+                                                  "title":  "Wsparcie 24/7",
+                                                  "description":  "Jesteśmy dostępni, gdy nas potrzebujesz. Zadzwoń o każdej porze."
+                                              }
+                              }
+              },
+    "benefits":  {
+                     "badge":  "Korzyści dla Ciebie",
+                     "title":  "Co zyskujesz wybierając nasze usługi sprzątania?",
+                     "included":  "W cenie każdej usługi:",
+                     "features":  {
+                                      "flexible":  "Elastyczne terminy sprzątania",
+                                      "equipment":  "Własny sprzęt i środki czystości",
+                                      "insurance":  "Ubezpieczenie od szkód",
+                                      "team":  "Stała ekipa sprzątająca",
+                                      "invoice":  "Faktura VAT",
+                                      "nohidden":  "Brak ukrytych kosztów"
+                                  },
+                     "items":  {
+                                   "productivity":  {
+                                                        "title":  "Zwiększona produktywność",
+                                                        "description":  "Czyste biuro to efektywni pracownicy. Badania pokazują, że czystość wpływa na koncentrację i motywację."
+                                                    },
+                                   "health":  {
+                                                  "title":  "Zdrowe środowisko",
+                                                  "description":  "Regularne sprzątanie eliminuje alergeny, kurz i bakterie, dbając o zdrowie Twoje i Twoich bliskich."
+                                              },
+                                   "time":  {
+                                                "title":  "Oszczędność czasu",
+                                                "description":  "Skup się na tym, co ważne. My zajmiemy się sprzątaniem, a Ty zyskasz cenny czas dla siebie."
+                                            }
+                               },
+                     "guarantee":  {
+                                       "title":  "Gwarancja satysfakcji:",
+                                       "description":  "Jeśli nie będziesz zadowolony z naszych usług, wrócimy i poprawimy bez dodatkowych opłat."
+                                   }
+                 },
+    "services":  {
+                     "badge":  "Nasze usługi",
+                     "title":  "Profesjonalne usługi sprzątania dla firm i osób prywatnych",
+                     "description":  "Oferujemy szeroki zakres usług sprzątających dostosowanych do Twoich potrzeb. Każdą usługę wykonujemy z najwyższą starannością.",
+                     "viewDetails":  "Zobacz szczegóły",
+                     "office":  {
+                                    "title":  "Sprzątanie biur",
+                                    "description":  "Kompleksowe utrzymanie czystości w biurach i przestrzeniach coworkingowych.",
+                                    "features":  {
+                                                     "daily":  "Codzienne sprzątanie",
+                                                     "windows":  "Mycie okien",
+                                                     "disinfection":  "Dezynfekcja powierzchni"
+                                                 }
+                                },
+                     "apartment":  {
+                                       "title":  "Sprzątanie mieszkań",
+                                       "description":  "Regularne i jednorazowe sprzątanie mieszkań oraz domów jednorodzinnych.",
+                                       "features":  {
+                                                        "general":  "Sprzątanie generalne",
+                                                        "renovation":  "Sprzątanie po remoncie",
+                                                        "windows":  "Mycie okien"
+                                                    }
+                                   },
+                     "building":  {
+                                      "title":  "Sprzątanie biurowców",
+                                      "description":  "Profesjonalna obsługa dużych obiektów biurowych i kompleksów biznesowych.",
+                                      "features":  {
+                                                       "24h":  "Obsługa całodobowa",
+                                                       "day":  "Serwis dzienny",
+                                                       "common":  "Sprzątanie części wspólnych"
+                                                   }
+                                  },
+                     "renovation":  {
+                                        "title":  "Sprzątanie po remoncie",
+                                        "description":  "Dokładne usunięcie pyłu, brudu i resztek materiałów budowlanych.",
+                                        "features":  {
+                                                         "windows":  "Mycie okien",
+                                                         "floors":  "Czyszczenie podłóg",
+                                                         "glue":  "Usuwanie kleju i farby"
+                                                     }
+                                    },
+                     "hotel":  {
+                                   "title":  "Sprzątanie hoteli",
+                                   "description":  "Kompleksowa obsługa obiektów hotelowych i apartamentów na wynajem.",
+                                   "features":  {
+                                                    "rooms":  "Sprzątanie pokoi",
+                                                    "bedding":  "Wymiana pościeli",
+                                                    "laundry":  "Pranie i prasowanie"
+                                                }
+                               },
+                     "industrial":  {
+                                        "title":  "Sprzątanie hal i magazynów",
+                                        "description":  "Utrzymanie czystości w halach produkcyjnych i magazynowych.",
+                                        "features":  {
+                                                         "floors":  "Czyszczenie posadzek",
+                                                         "machines":  "Mycie maszyn",
+                                                         "waste":  "Utylizacja odpadów"
+                                                     }
+                                    }
+                 },
+    "process":  {
+                    "badge":  "Jak działamy",
+                    "title":  "Prosty proces współpracy",
+                    "description":  "Współpraca z nami jest prosta i przejrzysta. Oto jak wygląda cały proces od pierwszego kontaktu do realizacji usługi.",
+                    "steps":  {
+                                  "contact":  {
+                                                  "title":  "Kontakt",
+                                                  "description":  "Zadzwoń lub wypełnij formularz. Odpowiemy w ciągu 24 godzin."
+                                              },
+                                  "quote":  {
+                                                "title":  "Bezpłatna wycena",
+                                                "description":  "Przyjedziemy i ocenimy zakres prac. Przedstawimy szczegółową ofertę."
+                                            },
+                                  "schedule":  {
+                                                   "title":  "Ustalenie terminu",
+                                                   "description":  "Wspólnie wybierzemy dogodny termin realizacji usługi."
+                                               },
+                                  "execution":  {
+                                                    "title":  "Realizacja",
+                                                    "description":  "Nasz zespół wykonuje usługę zgodnie z ustaleniami."
+                                                },
+                                  "completion":  {
+                                                     "title":  "Odbiór i rozliczenie",
+                                                     "description":  "Sprawdzasz efekty, a my wystawiamy fakturę. Gotowe!"
+                                                 }
+                              }
+                },
+    "calculator":  {
+                       "badge":  "Kalkulator cen",
+                       "title":  "Oblicz orientacyjny koszt sprzątania",
+                       "description":  "Wybierz rodzaj usługi, powierzchnię i częstotliwość, a my obliczymy dla Ciebie przybliżoną cenę.",
+                       "serviceType":  "Wybierz rodzaj usługi",
+                       "area":  "Powierzchnia",
+                       "frequency":  "Częstotliwość sprzątania",
+                       "estimatedPrice":  "Orientacyjna cena",
+                       "perVisit":  "za każdą wizytę",
+                       "perService":  "za jednorazową usługę",
+                       "orderQuote":  "Zamów wycenę",
+                       "reset":  "Resetuj kalkulator",
+                       "note":  "* Dokładna cena może się różnić w zależności od zakresu prac",
+                       "savings":  "Oszczędzasz {{discount}}% wybierając regularne sprzątanie",
+                       "services":  {
+                                        "apartment":  "Sprzątanie mieszkania",
+                                        "office":  "Sprzątanie biura",
+                                        "building":  "Sprzątanie biurowca",
+                                        "renovation":  "Sprzątanie po remoncie"
+                                    },
+                       "frequencies":  {
+                                           "once":  "Jednorazowo",
+                                           "weekly":  "Co tydzień",
+                                           "biweekly":  "Co 2 tygodnie",
+                                           "monthly":  "Co miesiąc"
+                                       }
+                   },
+    "pricing":  {
+                    "badge":  "Cennik usług sprzątania",
+                    "title":  "Transparentne ceny, brak ukrytych kosztów",
+                    "description":  "Wybierz pakiet dopasowany do Twoich potrzeb. Każda wycena jest indywidualna i zależy od powierzchni oraz zakresu prac.",
+                    "popular":  "Najpopularniejszy",
+                    "orderQuote":  "Zamów wycenę",
+                    "note":  "* Podane ceny są orientacyjne. Dokładna wycena zależy od powierzchni, zakresu prac i lokalizacji. Skontaktuj się z nami po bezpłatną wycenę.",
+                    "plans":  {
+                                  "oneTime":  {
+                                                  "name":  "Sprzątanie jednorazowe",
+                                                  "description":  "Idealne na specjalne okazje lub jako próba naszych usług",
+                                                  "price":  "od 150 zł",
+                                                  "unit":  "za usługę",
+                                                  "features":  [
+                                                                   "Sprzątanie wszystkich pomieszczeń",
+                                                                   "Mycie łazienek i kuchni",
+                                                                   "Odkurzanie i mycie podłóg",
+                                                                   "Usuwanie kurzu",
+                                                                   "Opróżnianie koszy"
+                                                               ]
+                                              },
+                                  "regular":  {
+                                                  "name":  "Sprzątanie regularne",
+                                                  "description":  "Najlepsza opcja dla utrzymania stałej czystości",
+                                                  "price":  "od 120 zł",
+                                                  "unit":  "za wizytę",
+                                                  "features":  [
+                                                                   "Wszystko z pakietu jednorazowego",
+                                                                   "Stała ekipa sprzątająca",
+                                                                   "Elastyczne terminy",
+                                                                   "10% zniżki na wszystkie usługi",
+                                                                   "Priorytetowe terminy",
+                                                                   "Dedykowany opiekun klienta"
+                                                               ]
+                                              },
+                                  "office":  {
+                                                 "name":  "Sprzątanie biur",
+                                                 "description":  "Kompleksowa obsługa przestrzeni biurowych",
+                                                 "price":  "Wycena indywidualna",
+                                                 "unit":  "za miesiąc",
+                                                 "features":  [
+                                                                  "Codzienne sprzątanie",
+                                                                  "Serwis dzienny",
+                                                                  "Dezynfekcja powierzchni",
+                                                                  "Elastyczne godziny pracy",
+                                                                  "Stała ekipa sprzątająca",
+                                                                  "Dedykowany opiekun klienta"
+                                                              ]
+                                             }
+                              }
+                },
+    "portfolio":  {
+                      "badge":  "Nasze realizacje",
+                      "title":  "Zaufali nam klienci z różnych branż",
+                      "description":  "Zobacz przykłady naszych realizacji. Obsługujemy zarówno duże firmy, jak i klientów indywidualnych.",
+                      "viewService":  "Zobacz usługę",
+                      "becomeClient":  "Zostań naszym klientem",
+                      "comingSoon":  "Zdjęcia z realizacji",
+                      "placeholder":  "Miejsce na zdjęcie z realizacji"
+                  },
+    "testimonials":  {
+                         "badge":  "Opinie klientów",
+                         "title":  "Co mówią o nas klienci",
+                         "description":  "Zaufało nam ponad 500 klientów. Poznaj ich opinie i przekonaj się, dlaczego warto wybrać nasze usługi sprzątania.",
+                         "join":  "Dołącz do 500+ zadowolonych klientów",
+                         "items":  {
+                                       "anna":  {
+                                                    "name":  "Anna Kowalska",
+                                                    "role":  "Właścicielka mieszkania",
+                                                    "content":  "Korzystam z usług Dom Blasku od roku. Fantastyczna jakość i punktualność. Polecam każdemu!"
+                                                },
+                                       "marek":  {
+                                                     "name":  "Marek Nowak",
+                                                     "role":  "Dyrektor operacyjny, TechCorp",
+                                                     "content":  "Współpracujemy z Dom Blasku przy obsłudze naszego biurowca. Profesjonalizm na najwyższym poziomie."
+                                                 },
+                                       "katarzyna":  {
+                                                         "name":  "Katarzyna Wiśniewska",
+                                                         "role":  "Manager hotelu",
+                                                         "content":  "Niezawodni i elastyczni. Reagują na każdą potrzebę. Goście chwalą czystość pokoi."
+                                                     },
+                                       "piotr":  {
+                                                     "name":  "Piotr Zieliński",
+                                                     "role":  "Właściciel firmy",
+                                                     "content":  "Po kilku próbach z innymi firmami, w końcu znalazłem Dom Blasku. Jakość i cena idealne."
+                                                 }
+                                   }
+                     },
+    "blog":  {
+                 "badge":  "Blog i porady",
+                 "title":  "Wiedza i inspiracje",
+                 "description":  "Porady ekspertów, case studies i trendy w branży sprzątania",
+                 "readMore":  "Czytaj więcej",
+                 "viewAll":  "Zobacz wszystkie artykuły"
+             },
+    "faq":  {
+                "badge":  "Pytania i odpowiedzi",
+                "title":  "Najczęściej zadawane pytania o sprzątanie",
+                "description":  "Znajdź odpowiedzi na najczęstsze pytania dotyczące naszych usług sprzątania. Jeśli nie znajdziesz odpowiedzi, skontaktuj się z nami.",
+                "otherQuestion":  "Masz inne pytanie?",
+                "contactUs":  "Skontaktuj się z nami telefonicznie lub mailowo. Chętnie odpowiemy na wszystkie Twoje pytania.",
+                "items":  {
+                              "order":  {
+                                            "question":  "Jak zamówić usługę sprzątania?",
+                                            "answer":  "Wystarczy zadzwonić pod numer +48 576 222 699 lub wypełnić formularz kontaktowy na naszej stronie. Odpowiemy w ciągu 24 godzin i umówimy się na bezpłatną wycenę."
+                                        },
+                              "quote":  {
+                                            "question":  "Czy wycena jest bezpłatna?",
+                                            "answer":  "Tak, wycena jest całkowicie bezpłatna i niezobowiązująca. Przyjedziemy, ocenimy zakres prac i przedstawimy szczegółową ofertę cenową."
+                                        },
+                              "products":  {
+                                               "question":  "Jakie środki czystości stosujecie?",
+                                               "answer":  "Używamy wyłącznie certyfikowanych, ekologicznych środków czystości, które są bezpieczne dla ludzi, zwierząt i środowiska. Na życzenie możemy również używać środków dostarczonych przez klienta."
+                                           },
+                              "equipment":  {
+                                                "question":  "Czy macie własny sprzęt?",
+                                                "answer":  "Tak, przyjeżdżamy z pełnym wyposażeniem - profesjonalne odkurzacze, mopy, środki czystości i wszystkie niezbędne akcesoria. Klient nie musi niczego zapewniać."
+                                            },
+                              "hours":  {
+                                            "question":  "Czy możecie sprzątać wieczorami lub w weekendy?",
+                                            "answer":  "Oczywiście! Dostosowujemy się do potrzeb klienta. Sprzątamy w godzinach porannych, wieczornych, a także w weekendy i święta (bez dodatkowych opłat)."
+                                        },
+                              "satisfaction":  {
+                                                   "question":  "Co jeśli nie będę zadowolony z usługi?",
+                                                   "answer":  "Oferujemy gwarancję satysfakcji. Jeśli efekt Cię nie zadowoli, wrócimy i poprawimy bez dodatkowych kosztów w ciągu 24 godzin od zgłoszenia."
+                                               },
+                              "invoice":  {
+                                              "question":  "Czy wystawiacie faktury VAT?",
+                                              "answer":  "Tak, jesteśmy zarejestrowanym płatnikiem VAT i wystawiamy faktury dla firm oraz rachunki dla osób prywatnych."
+                                          },
+                              "insurance":  {
+                                                "question":  "Czy macie ubezpieczenie?",
+                                                "answer":  "Tak, posiadamy pełne ubezpieczenie OC, które chroni zarówno nas, jak i naszych klientów na wypadek ewentualnych szkód podczas wykonywania usługi."
+                                            }
+                          }
+            },
+    "cta":  {
+                "title":  "Gotowy na profesjonalne sprzątanie?",
+                "description":  "Zamów bezpłatną wycenę już dziś i przekonaj się, jak możemy pomóc w utrzymaniu czystości Twojego biura lub mieszkania.",
+                "button":  "Zamów bezpłatną wycenę",
+                "phone":  "Zadzwoń teraz",
+                "trust":  "Ponad 500 zadowolonych klientów • Gwarancja jakości • Bezpłatna wycena"
+            },
+    "contact":  {
+                    "badge":  "Kontakt",
+                    "title":  "Zamów bezpłatną wycenę sprzątania",
+                    "description":  "Wypełnij formularz lub zadzwoń. Odpowiemy w ciągu 24 godzin i przedstawimy szczegółową ofertę.",
+                    "contactData":  "Dane kontaktowe",
+                    "phone":  "Telefon",
+                    "email":  "Email",
+                    "address":  "Adres",
+                    "hours":  "Godziny pracy",
+                    "mapTitle":  "Lokalizacja Dom Blasku na mapie",
+                    "form":  {
+                                 "name":  "Imię i nazwisko",
+                                 "namePlaceholder":  "Jan Kowalski",
+                                 "phone":  "Telefon",
+                                 "phonePlaceholder":  "+48 123 456 789",
+                                 "email":  "Email",
+                                 "emailPlaceholder":  "jan@przykład.pl",
+                                 "service":  "Rodzaj usługi",
+                                 "servicePlaceholder":  "Wybierz usługę",
+                                 "message":  "Wiadomość",
+                                 "messagePlaceholder":  "Opisz swoje potrzeby, podaj przybliżoną powierzchnię, częstotliwość sprzątania...",
+                                 "consent":  "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu odpowiedzi na zapytanie.",
+                                 "submit":  "Wyślij zapytanie",
+                                 "sending":  "Wysyłanie...",
+                                 "success":  "Dziękujemy za wiadomość!",
+                                 "successDescription":  "Skontaktujemy się z Tobą w ciągu 24 godzin.",
+                                 "sendAnother":  "Wyślij kolejne zapytanie"
+                             },
+                    "services":  {
+                                     "office":  "Sprzątanie biura",
+                                     "apartment":  "Sprzątanie mieszkania",
+                                     "building":  "Sprzątanie biurowca",
+                                     "renovation":  "Sprzątanie po remoncie",
+                                     "hotel":  "Sprzątanie hotelu",
+                                     "industrial":  "Sprzątanie hal i magazynów",
+                                     "other":  "Inne"
+                                 }
+                },
+    "footer":  {
+                   "description":  "Profesjonalne usługi sprzątania dla firm i osób prywatnych. Zaufaj ekspertom od czystości.",
+                   "services":  "Usługi sprzątania",
+                   "company":  "Firma",
+                   "help":  "Pomoc",
+                   "aboutUs":  "O nas",
+                   "career":  "Kariera",
+                   "privacyPolicy":  "Polityka prywatności",
+                   "terms":  "Regulamin",
+                   "rights":  "Wszystkie prawa zastrzeżone."
+               },
+    "servicePage":  {
+                        "backToServices":  "Wróć do wszystkich usług",
+                        "cleaningServices":  "Usługi sprzątania",
+                        "orderFreeQuote":  "Zamów bezpłatną wycenę",
+                        "benefitsTitle":  "Korzyści dla Ciebie",
+                        "qualityGuarantee":  "Gwarancja jakości",
+                        "punctuality":  "Punktualność",
+                        "ecoProducts":  "Eko środki",
+                        "experiencedTeam":  "Doświadczony zespół",
+                        "serviceIncludes":  "Co obejmuje usługa?",
+                        "cooperationProcess":  "Jak wygląda współpraca?",
+                        "serviceNotFound":  "Usługa nie znaleziona",
+                        "backToHome":  "Wróć do strony głównej",
+                        "services":  {
+                                         "sprzatanie-biur":  {
+                                                                 "title":  "Sprzątanie Biur",
+                                                                 "metaTitle":  "Profesjonalne Sprzątanie Biur Gdańsk | Dom Blasku",
+                                                                 "metaDescription":  "Zadbaj o czystość w swoim miejscu pracy. Oferujemy regularne i jednorazowe sprzątanie biur w Gdańsku. Sprawdź naszą ofertę i zamów darmową wycenę sprzątania.",
+                                                                 "heroDescription":  "Zapewniamy profesjonalne i regularne sprzątanie biur, które gwarantuje czyste i higieniczne środowisko pracy dla Twoich pracowników.",
+                                                                 "pricing":  "od 6 zł/m²",
+                                                                 "benefits":  [
+                                                                                  "Zwiększona produktywność pracowników",
+                                                                                  "Pozytywne pierwsze wrażenie dla klientów",
+                                                                                  "Mniej dni chorobowych w zespole",
+                                                                                  "Dłuższa żywotność mebli i wyposażenia",
+                                                                                  "Elastyczne godziny sprzątania",
+                                                                                  "Stała, zaufana ekipa sprzątająca"
+                                                                              ],
+                                                                 "features":  [
+                                                                                  {
+                                                                                      "title":  "Codzienne sprzątanie",
+                                                                                      "description":  "Odkurzanie, mycie podłóg, opróżnianie koszy, wycieranie biurek i powierzchni."
+                                                                                  },
+                                                                                  {
+                                                                                      "title":  "Dezynfekcja powierzchni",
+                                                                                      "description":  "Regularna dezynfekcja klamek, włączników, telefonów i wspólnych powierzchni."
+                                                                                  },
+                                                                                  {
+                                                                                      "title":  "Sprzątanie kuchni biurowej",
+                                                                                      "description":  "Mycie naczyń, czyszczenie lodówek, ekspresów do kawy i mikrofalówek."
+                                                                                  },
+                                                                                  {
+                                                                                      "title":  "Mycie okien",
+                                                                                      "description":  "Regularne mycie okien wewnątrz i na zewnątrz budynku."
+                                                                                  },
+                                                                                  {
+                                                                                      "title":  "Serwis dzienny",
+                                                                                      "description":  "Uzupełnianie mydła, papieru toaletowego i ręczników w ciągu dnia."
+                                                                                  },
+                                                                                  {
+                                                                                      "title":  "Pranie wykładzin",
+                                                                                      "description":  "Okresowe głębokie czyszczenie wykładzin i tapicerek."
+                                                                                  }
+                                                                              ],
+                                                                 "process":  [
+                                                                                 "Bezpłatna wizyta i ocena potrzeb",
+                                                                                 "Przygotowanie indywidualnej oferty",
+                                                                                 "Ustalenie harmonogramu sprzątania",
+                                                                                 "Przydzielenie stałej ekipy",
+                                                                                 "Regularne kontrole jakości"
+                                                                             ]
+                                                             },
+                                         "sprzatanie-mieszkan":  {
+                                                                     "title":  "Sprzątanie Mieszkań",
+                                                                     "metaTitle":  "Profesjonalne Sprzątanie Mieszkań Gdańsk | Dom Blasku",
+                                                                     "metaDescription":  "Brakuje Ci czasu na porządki? Zleć profesjonalne sprzątanie mieszkań w Gdańsku specjalistom z Domu Blasku. Ciesz się czystym domem bez wysiłku! Wycena gratis.",
+                                                                     "heroDescription":  "Oddaj nam sprzątanie, a Ty ciesz się czasem z rodziną. Zapewniamy kompleksowe sprzątanie mieszkań z dbałością o każdy detal.",
+                                                                     "pricing":  "od 8 zł/m²",
+                                                                     "benefits":  [
+                                                                                      "Więcej czasu dla siebie i rodziny",
+                                                                                      "Czyste i higieniczne mieszkanie",
+                                                                                      "Ekologiczne środki bezpieczne dla dzieci i zwierząt",
+                                                                                      "Elastyczne terminy dopasowane do Ciebie",
+                                                                                      "Stała, zaufana osoba sprzątająca",
+                                                                                      "Gwarancja satysfakcji"
+                                                                                  ],
+                                                                     "features":  [
+                                                                                      {
+                                                                                          "title":  "Kompleksowe sprzątanie",
+                                                                                          "description":  "Odkurzanie, mycie podłóg, wycieranie kurzu ze wszystkich powierzchni."
+                                                                                      },
+                                                                                      {
+                                                                                          "title":  "Łazienka i kuchnia",
+                                                                                          "description":  "Dokładne czyszczenie i dezynfekcja łazienki, mycie kuchni i sprzętów."
+                                                                                      },
+                                                                                      {
+                                                                                          "title":  "Mycie okien",
+                                                                                          "description":  "Mycie okien, parapetów i ram okiennych."
+                                                                                      },
+                                                                                      {
+                                                                                          "title":  "Prasowanie",
+                                                                                          "description":  "Na życzenie prasowanie ubrań i pościeli."
+                                                                                      },
+                                                                                      {
+                                                                                          "title":  "Zmiana pościeli",
+                                                                                          "description":  "Zmiana pościeli i ścielenie łóżek."
+                                                                                      },
+                                                                                      {
+                                                                                          "title":  "Sprzątanie po imprezie",
+                                                                                          "description":  "Ekspresowe sprzątanie po przyjęciach i imprezach."
+                                                                                      }
+                                                                                  ],
+                                                                     "process":  [
+                                                                                     "Kontakt telefoniczny lub przez formularz",
+                                                                                     "Ustalenie zakresu prac i terminu",
+                                                                                     "Sprzątanie w umówionym czasie",
+                                                                                     "Kontrola jakości przed wyjściem",
+                                                                                     "Rozliczenie i faktura"
+                                                                                 ]
+                                                                 },
+                                         "sprzatanie-biurowcow":  {
+                                                                      "title":  "Sprzątanie Biurowców",
+                                                                      "metaTitle":  "Sprzątanie Biurowców i Kompleksów Gdańsk | Dom Blasku",
+                                                                      "metaDescription":  "Kompleksowe sprzątanie biurowców w Gdańsku. Zapewniamy wykwalifikowany personel, dedykowanego koordynatora i elastyczne godziny pracy. Skontaktuj się z nami!",
+                                                                      "heroDescription":  "Specjalizujemy się w kompleksowej obsłudze dużych obiektów biurowych i kompleksów biznesowych. Zapewniamy serwis na najwyższym poziomie.",
+                                                                      "pricing":  "wycena indywidualna",
+                                                                      "benefits":  [
+                                                                                       "Obsługa całodobowa 24/7",
+                                                                                       "Dedykowany manager obiektu",
+                                                                                       "Stałe, przeszkolone ekipy",
+                                                                                       "Raportowanie i kontrola jakości",
+                                                                                       "Szybka reakcja na zgłoszenia",
+                                                                                       "Kompleksowa obsługa facility"
+                                                                                   ],
+                                                                      "features":  [
+                                                                                       {
+                                                                                           "title":  "Serwis dzienny",
+                                                                                           "description":  "Ciągła obsługa w godzinach pracy biurowca - uzupełnianie, sprzątanie, reagowanie."
+                                                                                       },
+                                                                                       {
+                                                                                           "title":  "Sprzątanie nocne",
+                                                                                           "description":  "Kompleksowe sprzątanie po godzinach pracy bez zakłócania funkcjonowania."
+                                                                                       },
+                                                                                       {
+                                                                                           "title":  "Części wspólne",
+                                                                                           "description":  "Utrzymanie czystości recepcji, korytarzy, wind i klatek schodowych."
+                                                                                       },
+                                                                                       {
+                                                                                           "title":  "Mycie fasad i okien",
+                                                                                           "description":  "Profesjonalne mycie okien i fasad z wykorzystaniem specjalistycznego sprzętu."
+                                                                                       },
+                                                                                       {
+                                                                                           "title":  "Pielęgnacja terenów zielonych",
+                                                                                           "description":  "Podlewanie roślin, pielęgnacja zieleni wewnątrz budynku."
+                                                                                       },
+                                                                                       {
+                                                                                           "title":  "Obsługa eventów",
+                                                                                           "description":  "Sprzątanie przed i po wydarzeniach firmowych w budynku."
+                                                                                       }
+                                                                                   ],
+                                                                      "process":  [
+                                                                                      "Audyt obiektu i analiza potrzeb",
+                                                                                      "Przygotowanie kompleksowej oferty",
+                                                                                      "Negocjacja i podpisanie umowy",
+                                                                                      "Wdrożenie zespołu i procedur",
+                                                                                      "Regularne audyty jakości"
+                                                                                  ]
+                                                                  },
+                                         "sprzatanie-po-remoncie":  {
+                                                                        "title":  "Sprzątanie po Remoncie",
+                                                                        "metaTitle":  "Sprzątanie po Remoncie i Budowie Gdańsk | Dom Blasku",
+                                                                        "metaDescription":  "Szybkie i dokładne sprzątanie poremontowe w Gdańsku. Skutecznie usuwamy pył, resztki farb i trudne zabrudzenia. Przygotujemy Twoje wnętrze do użytku.",
+                                                                        "heroDescription":  "Remont to dopiero połowa sukcesu. Pozwól nam dokończyć dzieło - usuniemy pył, brud i pozostałości po pracach budowlanych.",
+                                                                        "pricing":  "od 15 zł/m²",
+                                                                        "benefits":  [
+                                                                                         "Dokładne usunięcie pyłu budowlanego",
+                                                                                         "Usuwanie resztek kleju i farby",
+                                                                                         "Mycie okien po remoncie",
+                                                                                         "Profesjonalny sprzęt i środki",
+                                                                                         "Szybka realizacja",
+                                                                                         "Gotowe do zamieszkania"
+                                                                                     ],
+                                                                        "features":  [
+                                                                                         {
+                                                                                             "title":  "Usuwanie pyłu",
+                                                                                             "description":  "Dokładne odpylanie wszystkich powierzchni, szczelin i trudno dostępnych miejsc."
+                                                                                         },
+                                                                                         {
+                                                                                             "title":  "Mycie okien",
+                                                                                             "description":  "Usuwanie folii ochronnych, mycie szyb, ram i parapetów."
+                                                                                         },
+                                                                                         {
+                                                                                             "title":  "Czyszczenie podłóg",
+                                                                                             "description":  "Mycie i polerowanie podłóg, usuwanie resztek zaprawy i kleju."
+                                                                                         },
+                                                                                         {
+                                                                                             "title":  "Dezynfekcja łazienki",
+                                                                                             "description":  "Dokładne czyszczenie i dezynfekcja nowej łazienki."
+                                                                                         },
+                                                                                         {
+                                                                                             "title":  "Usuwanie zabrudzeń",
+                                                                                             "description":  "Usuwanie plam farby, kleju, silikonu z różnych powierzchni."
+                                                                                         },
+                                                                                         {
+                                                                                             "title":  "Wywóz odpadów",
+                                                                                             "description":  "Usuwanie resztek materiałów budowlanych i opakowań."
+                                                                                         }
+                                                                                     ],
+                                                                        "process":  [
+                                                                                        "Ocena zakresu prac po remoncie",
+                                                                                        "Wycena na podstawie powierzchni i stanu",
+                                                                                        "Ustalenie terminu realizacji",
+                                                                                        "Kompleksowe sprzątanie",
+                                                                                        "Odbiór i kontrola jakości"
+                                                                                    ]
+                                                                    },
+                                         "sprzatanie-hoteli":  {
+                                                                   "title":  "Sprzątanie Hoteli",
+                                                                   "metaTitle":  "Sprzątanie Hoteli i Apartamentów Gdańsk | Dom Blasku",
+                                                                   "metaDescription":  "Nienaganna czystość w Twoim obiekcie. Oferujemy profesjonalne sprzątanie hoteli i apartamentów na wynajem w Gdańsku. Zaufaj najwyższym standardom obsługi.",
+                                                                   "heroDescription":  "Zapewniamy kompleksową obsługę obiektów hotelowych i apartamentów na wynajem krótkookresowy. Twoi goście zasługują na perfekcyjną czystość.",
+                                                                   "pricing":  "wycena indywidualna",
+                                                                   "benefits":  [
+                                                                                    "Doświadczenie w branży hotelowej",
+                                                                                    "Elastyczne godziny pracy",
+                                                                                    "Szybkie turnover pokoi",
+                                                                                    "Wysokie standardy higieny",
+                                                                                    "Pranie i prasowanie w cenie",
+                                                                                    "Dedykowany koordynator"
+                                                                                ],
+                                                                   "features":  [
+                                                                                    {
+                                                                                        "title":  "Sprzątanie pokoi",
+                                                                                        "description":  "Kompleksowe sprzątanie pokoi hotelowych zgodnie z procedurami."
+                                                                                    },
+                                                                                    {
+                                                                                        "title":  "Wymiana pościeli",
+                                                                                        "description":  "Profesjonalna wymiana i ścielenie pościeli hotelowej."
+                                                                                    },
+                                                                                    {
+                                                                                        "title":  "Pranie i prasowanie",
+                                                                                        "description":  "Pranie pościeli, ręczników i prasowanie w naszej pralni."
+                                                                                    },
+                                                                                    {
+                                                                                        "title":  "Uzupełnianie amenities",
+                                                                                        "description":  "Uzupełnianie kosmetyków, herbat, kawy i materiałów informacyjnych."
+                                                                                    },
+                                                                                    {
+                                                                                        "title":  "Części wspólne",
+                                                                                        "description":  "Utrzymanie czystości recepcji, korytarzy i restauracji."
+                                                                                    },
+                                                                                    {
+                                                                                        "title":  "Sprzątanie ekspresowe",
+                                                                                        "description":  "Szybki turnover pokoju między gośćmi."
+                                                                                    }
+                                                                                ],
+                                                                   "process":  [
+                                                                                   "Analiza potrzeb hotelu",
+                                                                                   "Dostosowanie procedur do standardów",
+                                                                                   "Szkolenie dedykowanej ekipy",
+                                                                                   "Wdrożenie systemu jakości",
+                                                                                   "Regularne audyty i raporty"
+                                                                               ]
+                                                               },
+                                         "sprzatanie-hal":  {
+                                                                "title":  "Sprzątanie Hal i Magazynów",
+                                                                "metaTitle":  "Sprzątanie Hal Produkcyjnych i Magazynów Gdańsk",
+                                                                "metaDescription":  "Specjalistyczne sprzątanie hal i powierzchni magazynowych w Gdańsku. Stosujemy profesjonalny sprzęt i środki czystości dbając o BHP. Zapraszamy do współpracy!",
+                                                                "heroDescription":  "Specjalizujemy się w utrzymaniu czystości w halach produkcyjnych, magazynach i zakładach przemysłowych. Bezpieczeństwo i czystość to nasz priorytet.",
+                                                                "pricing":  "od 4.5 zł/m²",
+                                                                "benefits":  [
+                                                                                 "Doświadczenie w przemyśle",
+                                                                                 "Praca w systemie zmianowym",
+                                                                                 "Profesjonalny sprzęt przemysłowy",
+                                                                                 "Zgodność z przepisami BHP",
+                                                                                 "Utylizacja odpadów",
+                                                                                 "Elastyczne terminy"
+                                                                             ],
+                                                                "features":  [
+                                                                                 {
+                                                                                     "title":  "Czyszczenie posadzek",
+                                                                                     "description":  "Mechaniczne mycie i polerowanie posadzek przemysłowych."
+                                                                                 },
+                                                                                 {
+                                                                                     "title":  "Mycie maszyn",
+                                                                                     "description":  "Czyszczenie maszyn i urządzeń produkcyjnych."
+                                                                                 },
+                                                                                 {
+                                                                                     "title":  "Sprzątanie regałów",
+                                                                                     "description":  "Odpylanie i czyszczenie regałów magazynowych."
+                                                                                 },
+                                                                                 {
+                                                                                     "title":  "Utylizacja odpadów",
+                                                                                     "description":  "Segregacja i utylizacja odpadów przemysłowych."
+                                                                                 },
+                                                                                 {
+                                                                                     "title":  "Mycie okien i świetlików",
+                                                                                     "description":  "Czyszczenie przeszkleń na wysokościach."
+                                                                                 },
+                                                                                 {
+                                                                                     "title":  "Dezynfekcja",
+                                                                                     "description":  "Dezynfekcja pomieszczeń socjalnych i sanitarnych."
+                                                                                 }
+                                                                             ],
+                                                                "process":  [
+                                                                                "Wizja lokalna i ocena ryzyka",
+                                                                                "Przygotowanie planu sprzątania",
+                                                                                "Szkolenie BHP ekipy",
+                                                                                "Realizacja zgodnie z procedurami",
+                                                                                "Raportowanie i kontrola"
+                                                                            ]
+                                                            }
+                                     }
+                    }
 }
